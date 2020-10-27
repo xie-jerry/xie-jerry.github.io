@@ -1,0 +1,25 @@
+language: node_js
+sudo: true
+cache:
+  directories:
+  - node_modules
+install:
+- nvm install 8.4.0
+- nvm use 8.4.0
+- node --version
+- npm install -g npm@5.3.0
+- npm install -g hexo-cli
+- npm install
+before_script:
+- git submodule update --init --recursive
+- git config user.name "xie-jerry"
+- git config user.email "xie-jerry@qq.com"
+- sed -i "s/https:\/\/\(github\.com\/xie-jerry\/xie-jerry\.github\.io\.git\)/https:\/\/$AUTH_TOKEN@\1/"
+  _config.yml
+script:
+- hexo clean
+- hexo g
+- hexo d
+env:
+  global:
+    secure: K4rksMznf99OYKwgQL+bVLxsRECERXiBbfNVJ4n9rI/UxTIzRPFyv88DjwiFm4lpyWA/+EV/PrFpsvsHuQoKcB3RNw6VIqg4Powu6BVNy37omXuGo9gJYnwoTDbCtXpCkxkgDWcRzipaHvUJoQbN7zFZSCjrfxSO040vDz05Vwrn+ZxPbgnVF5NhbVKRdWcWYUUJ7DFeDto2l8WjusEh88AIhxiFS2Zvaoj0XP+PyrKHGEi6iQhptvlc/jh9WfU5UDQjo/QgZEhZH9PDxIXe5cJWBFl2zJBDub/cFYP9QmacGMCSXmuW7wWkWgL2lzGxknCdGZvdL4w9Sa8YzeZghFsG4RWAm+LjSc473zt1sjoPm/Wx7B2zpc/9YyBzXX8oTcT2aDrQqKVdMcIeSoUx4ZHDI/1Gn05rd09wPevURLmM9JeN1ucFSpkyoCZRJtNrBEY+asatmRiFmyICSl2N6cMAIJPS6pZw1IZGIYEycM19JVaaM3TnpvPcHmMMJWZXPwK75klNF/YCimJYd4pm5uA8gYAJauIuHgPax2pXGdpWWd7sLrR/fxI31zhukO+7OSD1bR9y3jIE6miLovd7k7aLnatoUy01ww1VJrRQsF7p93O+v9ZXDyo3IWiHMAkt1T/dpxVBBxvcbsl99iC1KK8mCFrVO3NTsAcmspsmvAg=
