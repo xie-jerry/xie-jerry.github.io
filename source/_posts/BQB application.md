@@ -1,4 +1,11 @@
-BQB认证申请
+title: BQB认证申请
+categories:
+  - 技术资料
+tags:
+  - 蓝牙
+date: 2020-10-28 20:37:00
+keyworks: 
+---
 
 **认证申请流程：**
 
@@ -10,11 +17,11 @@ BQB认证申请
 
  
 
-![http://www.newbtl.com/upload_files/2020-03/1585297888110802.png](file:///C:\Users\ADMINI~1\AppData\Local\Temp\msohtmlclip1\01\clip_image002.gif)
+![http://www.newbtl.com/upload_files/2020-03/1585297888110802.png](https://github.com/xie-jerry/picture/1.jpg)
 
  
 
-![1585297888133962.png](file:///C:\Users\ADMINI~1\AppData\Local\Temp\msohtmlclip1\01\clip_image003.gif)
+![1585297888133962.png](https://github.com/xie-jerry/picture/2.jpg)
 
  
 
