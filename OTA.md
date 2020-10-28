@@ -1,4 +1,12 @@
-# OTA简述
+---
+title: OTA简述
+categories:
+  - 技术资料
+tags:
+  - OTA
+date: 2020-10-28 20:37:00
+keyworks: 
+---
 
 **AMS-8500** 
 
@@ -6,7 +14,7 @@
 
 ■单输入单输出系统(SISO) OTA 测试暗室 
 
-![image.png](file:///C:\Users\ADMINI~1\AppData\Local\Temp\msohtmlclip1\01\clip_image002.gif)
+![image.jpg](https://xie-jerry.github.io/picture/15.jpg)
 
 **场地说明**
 
@@ -18,9 +26,9 @@
 
 ■最大承重：10 公斤.
 
-![image.png](file:///C:\Users\ADMINI~1\AppData\Local\Temp\msohtmlclip1\01\clip_image002.gif)
+![image.jpg](https://xie-jerry.github.io/picture/15.jpg)
 
-![image.png](file:///C:\Users\ADMINI~1\AppData\Local\Temp\msohtmlclip1\01\clip_image002.gif)
+![image.jpg](https://xie-jerry.github.io/picture/15.jpg)
 
  
 
@@ -36,7 +44,7 @@
 
 ■多输入多输出(MIMO) OTA测试暗室
 
-![image.png](file:///C:\Users\ADMINI~1\AppData\Local\Temp\msohtmlclip1\01\clip_image002.gif)
+![image.jpg](https://xie-jerry.github.io/picture/15.jpg)
 
 **场地说明**
 
@@ -70,7 +78,8 @@
 
 WiFi a/b/g/n ; BT ; LTE ; Cat M1 ; NB-IoT ; LTE ; WCDMA ; GSM
 
-![image.png](file:///C:\Users\ADMINI~1\AppData\Local\Temp\msohtmlclip1\01\clip_image003.gif)![image.png](file:///C:\Users\ADMINI~1\AppData\Local\Temp\msohtmlclip1\01\clip_image003.gif)
+![image.jpg](https://xie-jerry.github.io/picture/15.jpg)
+![image.jpg](https://xie-jerry.github.io/picture/15.jpg)
 
  
 
@@ -84,4 +93,4 @@ WiFi a/b/g/n ; BT ; LTE ; Cat M1 ; NB-IoT ; LTE ; WCDMA ; GSM
 
 ■机械搅拌器和天线的操作频率下，有效测试体积边界为0.5λ。
 
-![image.png](file:///C:\Users\ADMINI~1\AppData\Local\Temp\msohtmlclip1\01\clip_image002.gif)
+![image.jpg](https://xie-jerry.github.io/picture/15.jpg)
