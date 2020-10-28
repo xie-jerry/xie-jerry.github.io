@@ -1,3 +1,13 @@
+---
+title: SAR简介
+categories:
+  - 技术资料
+tags:
+  - SAR
+date: 2020-10-28 20:37:00
+keyworks:
+---
+
 # SAR简介
 
 SAR(Specific Absorption Rate，特定吸收率)测试是当人体暴露于射频（RF）电磁场能量下，人体所吸收电磁波能量的比值。单位定义为每公斤质量所吸收的能量（W/ kg）。
@@ -18,7 +28,7 @@ SAR(Specific Absorption Rate，特定吸收率)测试是当人体暴露于射频
 
  
 
-![1558079960716909.png](file:///C:\Users\ADMINI~1\AppData\Local\Temp\msohtmlclip1\01\clip_image002.jpg)
+![1558079960716909.jpg](https://xie-jerry.github.io/picture/17.jpg)
 
  
 
