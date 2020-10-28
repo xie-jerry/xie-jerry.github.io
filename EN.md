@@ -26,7 +26,7 @@ https://portal.etsi.org/webapp/workProgram/Report_Schedule.asp?WKI_ID=50585
 
  
 
-2、改变 LTE B28 上行工作频率从703~748 MHz变到 703~736 MHz
+2、改变 LTE B28 上行工作频率从703-748 MHz变到 703-736 MHz
 
  
 
