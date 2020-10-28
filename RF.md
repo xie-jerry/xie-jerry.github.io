@@ -1,4 +1,12 @@
-# RF简介
+---
+title: RF简介
+categories:
+  - 技术资料
+tags:
+  - RF
+date: 2020-10-28 20:37:00
+keyworks:
+---
 
 **RF****（Radio Frequency）射频**
 
@@ -10,7 +18,7 @@ RF是指利用具有一定波长可用于无线电通信的电磁波实现信息
 
 无线芯片、晶振和天线缺一不可。
 
-![图片1.png](file:///C:\Users\ADMINI~1\AppData\Local\Temp\msohtmlclip1\01\clip_image002.jpg)
+![图片1.jpg](https://xie-jerry.github.io/picture/16.jpg)
 
  
 
