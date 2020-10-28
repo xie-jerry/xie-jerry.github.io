@@ -1,4 +1,12 @@
-# EMC简介
+---
+title: EMC简介
+categories:
+  - 技术资料
+tags:
+  - EMC
+date: 2020-10-28 20:37:00
+keyworks:
+---
 
 **EMC (Electro-Magnetic Compatibility)** **电磁兼容**
 
@@ -26,7 +34,7 @@
 
 **电磁兼容三要素**
 
-![1558073489314863.png](file:///C:\Users\ADMINI~1\AppData\Local\Temp\msohtmlclip1\01\clip_image002.gif)
+![1558073489314863.png](https://xie-jerry.github.io/picture/5.jpg)
 
 由電磁干擾源發出的能量，通過某種耦合路徑傳輸到敏感設備，導致敏感設備出現某種形式的回應並產生效果。
 
@@ -34,7 +42,7 @@
 
 比如:
 
-![1558073515729302.png](file:///C:\Users\ADMINI~1\AppData\Local\Temp\msohtmlclip1\01\clip_image003.gif)
+![1558073515729302.jpg](https://xie-jerry.github.io/picture/6.jpg)
 
  
 
@@ -44,7 +52,7 @@
 
 **常見EMC測試專案**
 
-![1558073558799702.png](file:///C:\Users\ADMINI~1\AppData\Local\Temp\msohtmlclip1\01\clip_image004.gif)
+![1558073558799702.jpg](https://xie-jerry.github.io/picture/1603888348.jpg)
 
  
 
