@@ -1,5 +1,5 @@
 ---
-title: WiFi 6代
+title: WIFI 6E 你掌握了多少?
 categories:
   - 技术资料
 tags:
