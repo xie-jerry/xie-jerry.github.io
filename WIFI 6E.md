@@ -1,3 +1,14 @@
+---
+title: WiFi 6代
+categories:
+  - 技术资料
+tags:
+  - WiFi6
+date: 2020-10-28 20:37:00
+keyworks: 
+---
+
+
 # WIFI 6E 你掌握了多少?
 
 **COVID-19****疫情期间,你是否发现无线网络在哪里都不够用不够快？原因在于连接设备太多！远距办公,远距学习,远距医疗等服务的兴起证明了无论是WIFI还是4G/5G NR都非常重要。**
@@ -22,7 +33,7 @@
 
 　6.875-7.125GHz（U-NII-8频段）。
 
-![077ec16d-25aa-4586-a48d-4f2aa5298d26_.png](file:///C:\Users\ADMINI~1\AppData\Local\Temp\msohtmlclip1\01\clip_image002.jpg)
+![077ec16d-25aa-4586-a48d-4f2aa5298d26_.jpg](https://xie-jerry.github.io/picture/20.jpg)
 
 **2****、改变的是什么**
 
