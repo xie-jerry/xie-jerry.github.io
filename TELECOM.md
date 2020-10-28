@@ -1,5 +1,5 @@
 ---
-title: 日本telecom
+title: telecom电信法
 categories:
   - 技术资料
 tags:
