@@ -1,16 +1,25 @@
-# BQB设备与测试项目
+---
+title: BQB设备与测试项目
+categories:
+  - 技术资料
+tags:
+  - 蓝牙
+date: 2020-10-28 20:37:00
+keyworks: 
+---
+
 
 **设备介绍**
 
 
 
-![图片1.png](file:///C:\Users\ADMINI~1\AppData\Local\Temp\msohtmlclip1\01\clip_image002.jpg)
+![图片1.png](https://xie-jerry.github.io/picture/3.jpg)
 
  
 
 **儀器展示：**
 
-![1585298311102415.png](file:///C:\Users\ADMINI~1\AppData\Local\Temp\msohtmlclip1\01\clip_image003.jpg)
+![1585298311102415.png](https://xie-jerry.github.io/picture/4.jpg)
 
  
 
