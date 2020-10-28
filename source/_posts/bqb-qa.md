@@ -11,8 +11,6 @@ keyworks:
 
 ![BQB LOGO.jpg](https://xie-jerry.github.io/picture/1603888348.jpg)
 
-<!-- more --> 
-
 
 
 **为了方便大家翻阅，我们整理了一些常见问题如下，供各位参考：**
