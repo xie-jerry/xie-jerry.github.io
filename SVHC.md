@@ -1,3 +1,12 @@
+---
+title: SVHC(REACH高度关注物质)更新至209项
+categories:
+  - 技术资料
+tags:
+  - REACH高度关注物质
+date: 2020-10-28 20:37:00
+keyworks: 
+---
 # SVHC(REACH高度关注物质)更新至209项
 
 近期，欧洲化学品管理局ECHA发布了一项重要决议，新增4项物质到SVHC（REACH高度关注物质）列表中，现共有209项在管控范围内。
