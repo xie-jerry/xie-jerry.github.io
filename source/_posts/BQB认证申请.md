@@ -1,0 +1,27 @@
+BQB认证申请
+
+**认证申请流程：**
+
+第一种情况，使用了原来QDID的设计，没有改变或新增产品的蓝牙电路或功能，是可以不要求测试进行直接Listing的，具体可提供QDID给实验室进行评估。
+
+ 
+
+第二种情况，使用蓝牙芯片设计产品或者对已取得认证的产品进行电路修改或新增设计，则需要增加新的测试来完成认证，具体可提供产品规格书给实验室进行评估。
+
+ 
+
+![http://www.newbtl.com/upload_files/2020-03/1585297888110802.png](file:///C:\Users\ADMINI~1\AppData\Local\Temp\msohtmlclip1\01\clip_image002.gif)
+
+ 
+
+![1585297888133962.png](file:///C:\Users\ADMINI~1\AppData\Local\Temp\msohtmlclip1\01\clip_image003.gif)
+
+ 
+
+**蓝牙BQB认证周期和样品要求**
+
+1）认证周期：约2-3周（样品稳定性及支持功能多少决定）；
+
+ 
+
+2）样品数量: 2台成品，2台工程样机（带RF直量线能进入BQB测试模式）。
