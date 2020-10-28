@@ -1,3 +1,14 @@
+---
+title: 日本telecom
+categories:
+  - 技术资料
+tags:
+  - TELECOM
+date: 2020-10-28 20:37:00
+keyworks: 
+---
+
+
 # TELECOM简介
 
 **一．什么是 TELECOM**
@@ -28,7 +39,7 @@
 
 Hermon Laboratories －TCA 8200(Telecom Conformance Analyzer)
 
-![1558665833303503.png](file:///C:\Users\ADMINI~1\AppData\Local\Temp\msohtmlclip1\01\clip_image002.jpg)
+![1558665833303503.jpg](https://xie-jerry.github.io/picture/19.jpg)
 
  
 
