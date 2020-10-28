@@ -1,8 +1,17 @@
+---
+title: BQB干货分享：常见问题与解答
+categories:
+  - 技术资料
+tags:
+  - 蓝牙
+date: 2020-10-28 20:37:00
+keyworks: 
+---
 # BQB干货分享：常见问题与解答
 
-![BQB LOGO.jpg](file:///C:\Users\ADMINI~1\AppData\Local\Temp\msohtmlclip1\01\clip_image001.jpg)
+![BQB LOGO.jpg](https://xie-jerry.github.io/picture/1603888348.jpg)
 
- 
+<!-- more --> 
 
 
 
