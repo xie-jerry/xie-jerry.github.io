@@ -17,11 +17,11 @@ keyworks:
 
  
 
-![111.jpg](https://github.com/xie-jerry/picture/1.jpg)
+![111.jpg](https://xie-jerry.github.io/picture/1.jpg)
 
  
 
-![22.jpg](https://github.com/xie-jerry/picture/2.jpg)
+![22.jpg](https://xie-jerry.github.io/picture/2.jpg)
 
  
 
