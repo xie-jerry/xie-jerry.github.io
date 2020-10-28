@@ -1,3 +1,13 @@
+title: 沃尔玛锂电池UN38.3报告
+categories:
+  - 技术资料
+tags:
+  - UN38.3
+date: 2020-10-28 20:37:00
+keyworks: 
+
+
+
 # WERCSmart注册新规则--电池需上传UN38.3报告
 
 很多进入北美市场线下渠道的产品都会申请WERCSmart认证。
