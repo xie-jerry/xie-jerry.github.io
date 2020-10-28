@@ -13,13 +13,13 @@ keyworks:
 
 
 
-![图片1.png](https://xie-jerry.github.io/picture/3.jpg)
+![图片1.jpg](https://xie-jerry.github.io/picture/3.jpg)
 
  
 
 **儀器展示：**
 
-![1585298311102415.png](https://xie-jerry.github.io/picture/4.jpg)
+![158529835.jpg](https://xie-jerry.github.io/picture/4.jpg)
 
  
 
