@@ -1,4 +1,13 @@
-# IoT服务简介
+---
+title: # IoT服务简介
+categories:
+  - 技术资料
+tags:
+  - IoT
+date: 2020-10-28 20:37:00
+keyworks:
+---
+
 
 **简介**
 
@@ -44,7 +53,7 @@ IoT测试基于无线电波空气衰减量和环境模型，综合考虑不同�
 
 **测试项目：**
 
-![1586862904956295.png](file:///C:\Users\ADMINI~1\AppData\Local\Temp\msohtmlclip1\01\clip_image002.gif)
+![1586862904956295.jpg](https://xie-jerry.github.io/picture/9.jpg)
 
  
 
@@ -52,19 +61,19 @@ IoT测试基于无线电波空气衰减量和环境模型，综合考虑不同�
 
 **RC OTA**
 
-![1586862944279362.png](file:///C:\Users\ADMINI~1\AppData\Local\Temp\msohtmlclip1\01\clip_image003.gif)
+![1586862944279362.jpg](https://xie-jerry.github.io/picture/10.jpg)
 
  
 
 **MIMO OTA**
 
-![1586863694109774.png](file:///C:\Users\ADMINI~1\AppData\Local\Temp\msohtmlclip1\01\clip_image004.gif)
+![1586863694109774.jpg](https://xie-jerry.github.io/picture/11.jpg)
 
  
 
 **IoT Test Room**
 
-![1586863683254317.png](file:///C:\Users\ADMINI~1\AppData\Local\Temp\msohtmlclip1\01\clip_image005.gif)
+![1586863683254317.jpg](https://xie-jerry.github.io/picture/12.jpg)
 
  
 
@@ -76,6 +85,6 @@ IoT测试基于无线电波空气衰减量和环境模型，综合考虑不同�
 
 按照测试项目实际得分率高低，将设备无线连接水平分为1～3级，其中1级最高，通过认证产品,贩售时可张贴智能标签。
 
-![1586863103938867.png](file:///C:\Users\ADMINI~1\AppData\Local\Temp\msohtmlclip1\01\clip_image006.gif)     ![企业微信截图_15878626078763.png](file:///C:\Users\ADMINI~1\AppData\Local\Temp\msohtmlclip1\01\clip_image007.gif)
+![1586863103938867.jpg](https://xie-jerry.github.io/picture/13.jpg)     ![企业微信截图_15878626078763.jpg](https://xie-jerry.github.io/picture/14.jpg)
 
  
