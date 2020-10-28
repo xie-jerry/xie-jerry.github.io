@@ -1,3 +1,13 @@
+---
+title: Safety简介-安规是什么
+categories:
+  - 技术资料
+tags:
+  - Safety
+date: 2020-10-28 20:37:00
+keyworks: 
+---
+
 # Safety简介
 
 **安规是什么**
@@ -8,7 +18,7 @@
 
 引起疼痛或伤害的能量源是对人体部位或由人体部位传递某种形式的能量，从而引起疼痛或伤害。
 
-![S1.png](file:///C:\Users\ADMINI~1\AppData\Local\Temp\msohtmlclip1\01\clip_image002.jpg)
+![S1.jpg](https://xie-jerry.github.io/picture/18.jpg)
 
  
 
@@ -30,13 +40,13 @@
 
 能量源引起的人体反应的示例
 
-![S2.png](file:///C:\Users\ADMINI~1\AppData\Local\Temp\msohtmlclip1\01\clip_image002.jpg)
+![S2.jpg](https://xie-jerry.github.io/picture/18.jpg)
 
  
 
 许多产品需要使用能引起疼痛或伤害的能量。设备的设计又无法避免使用这种能量。因此，这些产品宜采用能减小这种能量传递到人体部位的可能性的方案。能减小这种能量传递到人体部位的可能性的方案就是安全防护。而安规则给设计者提供了这些安全防护的基本要求。
 
-![S3.png](file:///C:\Users\ADMINI~1\AppData\Local\Temp\msohtmlclip1\01\clip_image002.jpg)
+![S3.jpg](https://xie-jerry.github.io/picture/18.jpg)
 
  
 
