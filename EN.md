@@ -1,10 +1,20 @@
-# EN 301 908-13 V13.1.1 (2019-11) 已经纳入正式OJ 了吗?
+---
+title:# EN 301 908-13 V13.1.1 (2019-11) 已经纳入正式OJ 了吗?
+categories:
+  - 技术资料
+tags:
+  -  EN 301 908-13
+date: 2020-10-28 20:37:00
+keyworks: 
+---
+
+
 
 自2019/11发行EN 301 908-13 V13.1.1后,现行ETSI工作项目计划表还有两个项目未完成分别是交付给欧洲共同体以及OJ 所引用的时间待定,参考网址
 
 https://portal.etsi.org/webapp/workProgram/Report_Schedule.asp?WKI_ID=50585
 
-![中1.png](file:///C:\Users\ADMINI~1\AppData\Local\Temp\msohtmlclip1\01\clip_image002.jpg) 
+![中1.png](https://xie-jerry.github.io/picture/7.jpg) 
 
 我们在前期分享了 EN 301 908-13草稿版的变化 ,虽然V13.1.1按照进度还未OJ, 我们移动通讯部门秉持着好学不倦,勤学好问的精神,分享这两个版本 V11.1.2 & V13.1.1对于E-UTRA的差异内容
 
@@ -22,7 +32,7 @@ https://portal.etsi.org/webapp/workProgram/Report_Schedule.asp?WKI_ID=50585
 
 3、增加及改变共存杂散测试项目的下行频段,举例 B1 & B3
 
-![中2.png](file:///C:\Users\ADMINI~1\AppData\Local\Temp\msohtmlclip1\01\clip_image003.jpg) 
+![中2.png](https://xie-jerry.github.io/picture/8.jpg) 
 
  
 
