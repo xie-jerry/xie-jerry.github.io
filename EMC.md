@@ -51,8 +51,8 @@ keyworks:
  
 
 **常見EMC測試專案**
+![1558073489314863.png](https://xie-jerry.github.io/picture/5.jpg)
 
-![1558073558799702.jpg](https://xie-jerry.github.io/picture/1603888348.jpg)
 
  
 
