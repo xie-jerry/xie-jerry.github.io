@@ -1,4 +1,4 @@
-title: BQB认证申请
+title:BQB认证申请
 categories:
   - 技术资料
 tags:
