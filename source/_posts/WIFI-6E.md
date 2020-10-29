@@ -3,7 +3,7 @@ title: WIFI 6E 你掌握了多少?
 categories:
   - 技术资料
 tags:
-  - WiFi6
+  - RF
 date: 2020-10-28 20:37:00
 keyworks: 
 ---
