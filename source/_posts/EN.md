@@ -3,7 +3,7 @@ title:# EN 301 908-13 V13.1.1 (2019-11) 已经纳入正式OJ 了吗?
 categories:
   - 技术资料
 tags:
-  -  EN 301 908-13
+  -  RF
 date: 2020-10-28 20:37:00
 keyworks: 
 ---
