@@ -1,0 +1,725 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+    <meta name="keywords" content="hexo, autumn" />
+    <title>
+        jerryxie&#39;s blog
+    </title>
+    <!-- favicon -->
+    
+    <link rel="icon" href="https://cdn.jsdelivr.net/gh/frontendsophie/hexo-theme-autumn@1.0.0/source/img/favicon.ico" />
+     
+<link rel="stylesheet" href="/css/style.css">
+
+
+    <!-- highlight -->
+    <link rel="stylesheet" href="https://cdn.bootcss.com/highlight.js/9.12.0/styles/github-gist.min.css" />
+    <script src="//cdn.bootcss.com/highlight.js/9.2.0/highlight.min.js"></script>
+    <script>
+        hljs.initHighlightingOnLoad()
+    </script>
+    <script src="https://cdn.jsdelivr.net/gh/frontendsophie/hexo-infinite-scroll@2.0.0/dist/main.js"></script>
+
+    <script>
+        infiniteScroll()
+
+        window.addEventListener('DOMContentLoaded', function () {
+            const [
+                mainTitle,
+                mobileMenu,
+                mobileMainTitle,
+                mobileMenuBtn,
+                ipadMenuBtn,
+                aside,
+                closeBtn,
+            ] = getEle(
+                '#main-title',
+                '.mobile-menu',
+                '.mobile-menu h3',
+                '.mobile-menu button',
+                '.ipad-menu',
+                'aside',
+                'aside .close',
+            )
+            const io = new IntersectionObserver(entries => {
+                if (entries[0].intersectionRatio <= 0) {
+                    mobileMainTitle.classList.remove('invisibile')
+                } else {
+                    mobileMainTitle.classList.add('invisibile')
+                }
+            })
+            io.observe(mainTitle)
+
+            clickToggleAside(mobileMenuBtn)
+            clickToggleAside(ipadMenuBtn)
+            clickToggleAside(closeBtn, false)
+
+            const isMenuVisible = window.getComputedStyle(mobileMenu).display !== 'none'
+            if (isMenuVisible) document.body.style.background = 'none'
+
+            function getEle(...args) {
+                return args.map(arg => document.querySelector(arg))
+            }
+
+            function clickToggleAside(btn, show = true) {
+                btn.addEventListener('click', function () {
+                    if (show) {
+                        aside.style.display = 'block'
+                    } else {
+                        aside.style.display = 'none'
+                    }
+                })
+            }
+        })
+    </script>
+<meta name="generator" content="Hexo 5.2.0"></head>
+
+<body style="background: url(https://cdn.jsdelivr.net/gh/frontendsophie/hexo-theme-autumn@1.0.0/source/img/button-bg.png) #f3f3f3">
+    <div class="container">
+        <header class="header">
+    <nav class="mobile-menu" style="background: url(https://cdn.jsdelivr.net/gh/frontendsophie/hexo-theme-autumn@1.0.0/source/img/button-bg.png) #f3f3f3">
+        <h3 class="invisibile">
+            <a href="/" class="logo">
+                jerryxie&#39;s blog
+            </a>
+        </h3>
+        <button class="menu">menu</button>
+    </nav>
+
+    <button class="ipad-menu menu">menu</button>
+
+    <h1 class="title" id="main-title">
+        <a href="/" class="logo">
+            jerryxie&#39;s blog
+        </a>
+    </h1>
+    <h2 class="desc">
+        启全的个人博客
+    </h2>
+
+    <div class="links">
+        <ul>
+            
+            <li>
+                <a target="_blank" rel="noopener" href="https://github.com/FrontendSophie">
+                    Github
+                </a>
+            </li>
+            
+            <li>
+                <a target="_blank" rel="noopener" href="https://www.linkedin.com/in/frontendsophie/">
+                    LinkedIn
+                </a>
+            </li>
+            
+        </ul>
+    </div>
+</header>
+        <main class="main">
+            <article class="post">
+    
+    
+    <h4 class="post-cat">
+        <a href="/categories/%E5%9B%BD%E9%99%85%E8%AE%A4%E8%AF%81%E8%B5%84%E8%AE%AF/">
+            国际认证资讯
+        </a>
+    </h4>
+    
+    
+    <h2 class="post-title">
+        关于国家市场监督管理总局优化强制性产品认证目录公告
+    </h2>
+    <ul class="post-date">
+        <li>
+            2020-10-28
+        </li>
+        <li>
+            jerry xie
+        </li>
+    </ul>
+    <div class="post-content">
+        <h1 id="关于国家市场监督管理总局优化强制性产品认证目录公告"><a href="#关于国家市场监督管理总局优化强制性产品认证目录公告" class="headerlink" title="关于国家市场监督管理总局优化强制性产品认证目录公告"></a>关于国家市场监督管理总局优化强制性产品认证目录公告</h1><p>为了进一步深化强制性产品认证的改革制度，市场监督总局（认监委）出台了2020年第18号公告：市场监督总局关于优化强制性产品认证目录的公告。公告中指出，优化后的强制性产品认证目录共17大类103种产品，为便利各相关方准确界定强制性产品认证目录范围，认监委重新修订了《强制性产品认证目录描述与界定表》，同时，《国家认监委发布关于强制性产品认证目录描述与界定表的公告》（认监委公告2014年第45号）的公告废止。</p>
+<p><strong>优化后的强制性产品认证目录17大类103种产品见下表：</strong></p>
+<table>
+<thead>
+<tr>
+<th><strong>强制性产品认证目录</strong></th>
+<th></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>产品大类</strong></td>
+<td><strong>产品种类及代码</strong></td>
+</tr>
+<tr>
+<td>一、电线电缆（3种）</td>
+<td>1.电线组件（0101）</td>
+</tr>
+<tr>
+<td>2.额定电压450/750V及以下橡皮绝缘电线电缆（0104）</td>
+<td></td>
+</tr>
+<tr>
+<td>3.额定电压450/750V及以下聚氯乙烯绝缘电线电缆（0105）</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>二、电路开关及保护或连接用电器装置（5种）</td>
+<td>4.插头插座（0201）</td>
+</tr>
+<tr>
+<td>5.家用和类似用途固定式电气装置的开关（0202）</td>
+<td></td>
+</tr>
+<tr>
+<td>6.器具耦合器（0204）</td>
+<td></td>
+</tr>
+<tr>
+<td>7.家用和类似用途固定式电气装置电器附件外壳（0206）</td>
+<td></td>
+</tr>
+<tr>
+<td>**8.熔断体（0205、0207）</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>三、低压电器（2种）</td>
+<td>**9.低压成套开关设备（0301）</td>
+</tr>
+<tr>
+<td>**10.低压元器件（0302、0303、0304、0305、0306、0307、0308、0309）</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>四、小功率电动机（1种）</td>
+<td>**11.小功率电动机（0401）</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>五、电动工具（3种）</td>
+<td>*12.电钻（0501）</td>
+</tr>
+<tr>
+<td>*13.电动砂轮机（0503）</td>
+<td></td>
+</tr>
+<tr>
+<td>*14.电锤（0506）</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>六、电焊机   （4种）</td>
+<td>*15.直流弧焊机（0603）</td>
+</tr>
+<tr>
+<td>*16.TIG弧焊机（0604）</td>
+<td></td>
+</tr>
+<tr>
+<td>*17.MIG/MAG弧焊机（0605）</td>
+<td></td>
+</tr>
+<tr>
+<td>*18.等离子弧切割机（0607）</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>七、家用和类似用途设备   （19种）</td>
+<td>19.家用电冰箱和食品冷冻箱（0701）</td>
+</tr>
+<tr>
+<td>20.电风扇（0702）</td>
+<td></td>
+</tr>
+<tr>
+<td>21.空调器（0703）</td>
+<td></td>
+</tr>
+<tr>
+<td>**22.电动机－压缩机（0704）</td>
+<td></td>
+</tr>
+<tr>
+<td>23.家用电动洗衣机（0705）</td>
+<td></td>
+</tr>
+<tr>
+<td>24.电热水器（0706）</td>
+<td></td>
+</tr>
+<tr>
+<td>25.室内加热器（0707）</td>
+<td></td>
+</tr>
+<tr>
+<td>26.真空吸尘器（0708）</td>
+<td></td>
+</tr>
+<tr>
+<td>27.皮肤和毛发护理器具（0709）</td>
+<td></td>
+</tr>
+<tr>
+<td>28.电熨斗（0710）</td>
+<td></td>
+</tr>
+<tr>
+<td>29.电磁灶（0711）</td>
+<td></td>
+</tr>
+<tr>
+<td>30.电烤箱（便携式烤架、面包片烘烤器及类似烹调器具）（0712）</td>
+<td></td>
+</tr>
+<tr>
+<td>31.电动食品加工器具（食品加工机（厨房机械））（0713）</td>
+<td></td>
+</tr>
+<tr>
+<td>32.微波炉（0714）</td>
+<td></td>
+</tr>
+<tr>
+<td>33.电灶、灶台、烤炉和类似器具（驻立式电烤箱、固定式烤架及类似烹调器具）（0715）</td>
+<td></td>
+</tr>
+<tr>
+<td>34.吸油烟机（0716）</td>
+<td></td>
+</tr>
+<tr>
+<td>35.液体加热器和冷热饮水机（0717）</td>
+<td></td>
+</tr>
+<tr>
+<td>36.电饭锅（0718）</td>
+<td></td>
+</tr>
+<tr>
+<td>37.电热毯、电热垫及类似柔性发热器具（0719）</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>八、电子产品及安全附件   （共计18种）</td>
+<td>38.总输出功率在500W（有效值）以下的单扬声器和多扬声器有源音箱（0801）</td>
+</tr>
+<tr>
+<td>39.音频功率放大器（0802）</td>
+<td></td>
+</tr>
+<tr>
+<td>40.各类载体形式的音视频录制、播放及处理设备（包括各类光盘、磁带、硬盘、等载体形式）（0805、0812）</td>
+<td></td>
+</tr>
+<tr>
+<td>41.各种成像方式的彩色电视接收机、电视机顶盒（0808）</td>
+<td></td>
+</tr>
+<tr>
+<td>42.电子琴（0813）</td>
+<td></td>
+</tr>
+<tr>
+<td>43.微型计算机（0901）</td>
+<td></td>
+</tr>
+<tr>
+<td>44.便携式计算机（0902）</td>
+<td></td>
+</tr>
+<tr>
+<td>45.与计算机连用的显示设备（0903）</td>
+<td></td>
+</tr>
+<tr>
+<td>46.与计算机相连的打印设备（0904）</td>
+<td></td>
+</tr>
+<tr>
+<td>47.多用途打印复印机（0905）</td>
+<td></td>
+</tr>
+<tr>
+<td>48.扫描器（0906）</td>
+<td></td>
+</tr>
+<tr>
+<td>49.服务器（0911）</td>
+<td></td>
+</tr>
+<tr>
+<td>50.传真机（1602）</td>
+<td></td>
+</tr>
+<tr>
+<td>51.无绳电话终端（1604）</td>
+<td></td>
+</tr>
+<tr>
+<td>52.移动用户终端（1606）</td>
+<td></td>
+</tr>
+<tr>
+<td>53.数据终端（1608）</td>
+<td></td>
+</tr>
+<tr>
+<td>54.多媒体终端（1609）</td>
+<td></td>
+</tr>
+<tr>
+<td>55.电源（0807、0907）</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>九、照明电器（2种）</td>
+<td>56.灯具（1001）</td>
+</tr>
+<tr>
+<td>57.镇流器（1002）</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>十、车辆及安全附件（13种）</td>
+<td>58.汽车（1101）</td>
+</tr>
+<tr>
+<td>59.摩托车（1102）</td>
+<td></td>
+</tr>
+<tr>
+<td>60.电动自行车（1119）</td>
+<td></td>
+</tr>
+<tr>
+<td>61.机动车辆轮胎（1201、1202）</td>
+<td></td>
+</tr>
+<tr>
+<td>62.摩托车乘员头盔（1105）</td>
+<td></td>
+</tr>
+<tr>
+<td>63.汽车用制动器衬片（1120）   （2020年6月1日起实施）</td>
+<td></td>
+</tr>
+<tr>
+<td>**64.汽车安全玻璃（1301）</td>
+<td></td>
+</tr>
+<tr>
+<td>**65.汽车安全带（1104）</td>
+<td></td>
+</tr>
+<tr>
+<td>**66.机动车外部照明及光信号装置（1109、1116）</td>
+<td></td>
+</tr>
+<tr>
+<td>**67.机动车辆间接视野装置（1110、1115）</td>
+<td></td>
+</tr>
+<tr>
+<td>**68.汽车座椅及座椅头枕（1114）</td>
+<td></td>
+</tr>
+<tr>
+<td>**69.汽车行驶记录仪（1117）</td>
+<td></td>
+</tr>
+<tr>
+<td>**70.车身反光标识（1118）</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>十一、农机产品   （2种）</td>
+<td>71.植物保护机械（1401）</td>
+</tr>
+<tr>
+<td>72.轮式拖拉机（1402）</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>十二、消防产品   （3种）</td>
+<td>73.火灾报警产品（1801）</td>
+</tr>
+<tr>
+<td>74.灭火器（1810）</td>
+<td></td>
+</tr>
+<tr>
+<td>75.避难逃生产品（1815）</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>十三、安全防范产品（2种）</td>
+<td>76.入侵探测器（1901）</td>
+</tr>
+<tr>
+<td>77.防盗报警控制器（1902）</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>十四、建材产品   （3种）</td>
+<td>78.溶剂型木器涂料（2101）</td>
+</tr>
+<tr>
+<td>79.瓷质砖（2102）</td>
+<td></td>
+</tr>
+<tr>
+<td>80.建筑安全玻璃（1302）</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>十五、儿童用品   （3种）</td>
+<td>81.童车类产品（2201）</td>
+</tr>
+<tr>
+<td>82.玩具（2202）</td>
+<td></td>
+</tr>
+<tr>
+<td>83.机动车儿童乘员用约束系统（2207）</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>十六、防爆电气   （17种）</td>
+<td>84.防爆电机（2301）</td>
+</tr>
+<tr>
+<td>85.防爆电泵（2302）</td>
+<td></td>
+</tr>
+<tr>
+<td>86.防爆配电装置类产品（2303）</td>
+<td></td>
+</tr>
+<tr>
+<td>87.防爆开关、控制及保护产品（2304）</td>
+<td></td>
+</tr>
+<tr>
+<td>88.防爆起动器类产品（2305）</td>
+<td></td>
+</tr>
+<tr>
+<td>89.防爆变压器类产品（2306）</td>
+<td></td>
+</tr>
+<tr>
+<td>90.防爆电动执行机构、电磁阀类产品（2307）</td>
+<td></td>
+</tr>
+<tr>
+<td>91.防爆插接装置（2308）</td>
+<td></td>
+</tr>
+<tr>
+<td>92.防爆监控产品（2309）</td>
+<td></td>
+</tr>
+<tr>
+<td>93.防爆通讯、信号装置（2310）</td>
+<td></td>
+</tr>
+<tr>
+<td>94.防爆空调、通风设备（2311）</td>
+<td></td>
+</tr>
+<tr>
+<td>95.防爆电加热产品（2312）</td>
+<td></td>
+</tr>
+<tr>
+<td>96.防爆附件、Ex元件（2313）</td>
+<td></td>
+</tr>
+<tr>
+<td>97.防爆仪器仪表类产品（2314）</td>
+<td></td>
+</tr>
+<tr>
+<td>98.防爆传感器（2315）</td>
+<td></td>
+</tr>
+<tr>
+<td>99.安全栅类产品（2316）</td>
+<td></td>
+</tr>
+<tr>
+<td>100.防爆仪表箱类产品（2317）</td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>十七、家用燃气器具（3种）</td>
+<td>101.家用燃气灶具（2401）</td>
+</tr>
+<tr>
+<td>102.家用燃气快速热水器（2402）</td>
+<td></td>
+</tr>
+<tr>
+<td>103.燃气采暖热水炉（2403）</td>
+<td></td>
+</tr>
+</tbody></table>
+<p>注：*所标记产品为实施自我声明程序A（自选实验室型式试验+自我声明）的产品（7种），**所标记产品为实施自我声明程序B（指定实验室型式试验+自我声明）的产品（12种）。</p>
+<p>自公告发布日起，新的产品目录已开始实施，新产品目录的发布，意味着旧目录中有部分产品已不在强制性清单目录内，针对08，09及16类产品，为了让大家更清晰地了解此次变更，为大家整理了新实施规范的差异如下，供大家参考！</p>
+<table>
+<thead>
+<tr>
+<th><strong>序列</strong></th>
+<th><strong>变更项目</strong></th>
+<th><strong>变更前</strong></th>
+<th><strong>变更后</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td>0805类对产品适用范围描述或列举不同</td>
+<td>磁带录放机、CD播放机、VCD/超级VCD播放机、LD播放机、DVD播放机、MP3录/放机、MP4录/放机、盘式电唱机、CD/MD唱机、具有录音功能的激光唱机、语音复读机、带有载体的编码器/译码器等。</td>
+<td>1.录放机、电唱机、具有录音功能的激光唱机、语音复读机、带有载体的编码器/译码器等；      2.0804（各种广播波段的调谐接收机、收音机），0806（以上四种0801，0802，0804，0805设备的组合），0809，（监视器）0811（显像管），0814（天线放大器）从强制认证清单中删除。</td>
+</tr>
+<tr>
+<td>2</td>
+<td>0807/0907对产品种类的描述不同</td>
+<td>音视频设备配套的电源适配器（含充/放电器）为0807类，计算机内置电源及电源适配器充电器为0907类。</td>
+<td>新强制目录把0807/0907放在一起进行描述，把额定功率1300W以下的安装在计算机/服务器内部电源，改为额定电流小于等于6A。</td>
+</tr>
+<tr>
+<td>3</td>
+<td>0903对产品适用范围描述或列举不同</td>
+<td>与计算机连用的显示设备包括：LCD液晶显示器、CRT单色显示器、CRT彩色显示器、显示终端、PDP显示器、投影显示器、LED电子显示屏、其他显示器等；      数据投影机包括：CRT(阴极射线管)投影机、LCD(液晶显示器投影机、DLP(数码光路处理器)投影机、DLV(数码光阀)投影机。</td>
+<td>显示设备包括：LCD液晶显示器、OLED电子显示屏、LED电子显示屏、其他显示终端等；      数据投影机包括：LCD投影机、DLP投影机、DLV投影机等。</td>
+</tr>
+<tr>
+<td>4</td>
+<td>0908（计算机游戏机）/0909（学习机）/0910（复印机）</td>
+<td>计算机游戏机需按做0908类认证，学习机需做0909类认证，复印机需做0910类认证。</td>
+<td>计算机游戏机，学习机，复印机已从强制性清单中删除。</td>
+</tr>
+<tr>
+<td>5</td>
+<td>0911对产品适用范围描述或列举不同</td>
+<td>服务器：适用于额定功率小于1300瓦的服务器。具有服务器功能的磁盘阵列、网络服务器、刀片服务器等。</td>
+<td>服务器：适用于额定电流小于等于6A的服务器。具有服务器功能的磁盘阵列、塔式服务器、机架式服务器、刀片服务器等。</td>
+</tr>
+<tr>
+<td>6</td>
+<td>1601（调制解调器（含卡））/1603（固定电话终端及电话机附加装置）/1605（集团电话）/1607（ISDN终端）</td>
+<td>调制解调器（含卡）需做1601类认证，固定电话终端及电话机附加装置需做1603类认证，集团电话需要做1605类认证，ISDN终端需要做1607类认证。</td>
+<td>调制解调器（含卡）、固定电话终端及电话机附加装置、集团电话、ISDN终端已从强制性清单中删除。</td>
+</tr>
+<tr>
+<td>7</td>
+<td>1608类对产品适用范围描述或列举不同</td>
+<td>数据终端（含卡）：在非通信运营商管理维护的机房使用的，具有数据存储、转换和传递功能的通信终端产品（包括内置卡）；      如：存储转发传真/语音卡、以太网集线器（工作电压覆盖220V单相工频，且端口固定，且通信口全部为以太网端口）、界面转换器、POS终端（彩票销售终端）等。</td>
+<td>数据终端：已不包括内置卡。存储转发传真/语音卡已从目录中删除。</td>
+</tr>
+<tr>
+<td>8</td>
+<td>2020版把08类09类16类放在一起进行产品总说明</td>
+<td>三大类共32种</td>
+<td>见上表第8项子产品及安全附件（共计18种）。</td>
+</tr>
+</tbody></table>
+
+    </div>
+</article>
+        </main>
+        <aside class="aside">
+            <div class="close"></div>
+            <section class="aside-section">
+                
+    <h1>Categories</h1>
+
+    <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%9B%BD%E9%99%85%E8%AE%A4%E8%AF%81%E8%B5%84%E8%AE%AF/">国际认证资讯</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%8A%80%E6%9C%AF%E8%B5%84%E6%96%99/">技术资料</a></li></ul>
+
+            </section>
+            <section class="aside-section">
+                
+    <h1>Archives</h1>
+
+    <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/">2020</a></li></ul>
+
+
+            </section>
+            <section class="aside-section tag">
+                
+    <h1>Tags</h1>
+
+    <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/5G-NR/" rel="tag">5G NR</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/EMC/" rel="tag">EMC</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/IoT/" rel="tag">IoT</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/KC/" rel="tag">KC</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/NCC/" rel="tag">NCC</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/OTA/" rel="tag">OTA</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/REACH%E9%AB%98%E5%BA%A6%E5%85%B3%E6%B3%A8%E7%89%A9%E8%B4%A8/" rel="tag">REACH高度关注物质</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/RF/" rel="tag">RF</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Rosh/" rel="tag">Rosh</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/SAR/" rel="tag">SAR</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Safety/" rel="tag">Safety</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/TELECOM/" rel="tag">TELECOM</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/UN38-3/" rel="tag">UN38.3</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%BC%BA%E5%88%B6%E8%AE%A4%E8%AF%81/" rel="tag">强制认证</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%94%B5%E6%B1%A0/" rel="tag">电池</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%A7%BB%E5%8A%A8%E9%80%9A%E8%AE%AF%E6%8A%80%E6%9C%AF/" rel="tag">移动通讯技术</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%8B%B1%E5%9B%BDUKCA/" rel="tag">英国UKCA</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%93%9D%E7%89%99/" rel="tag">蓝牙</a></li></ul>
+
+            </section>
+        </aside>
+    </div>
+</body>
+
+</html>

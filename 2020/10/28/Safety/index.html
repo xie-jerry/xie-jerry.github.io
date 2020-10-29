@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+    <meta name="keywords" content="hexo, autumn" />
+    <title>
+        jerryxie&#39;s blog
+    </title>
+    <!-- favicon -->
+    
+    <link rel="icon" href="https://cdn.jsdelivr.net/gh/frontendsophie/hexo-theme-autumn@1.0.0/source/img/favicon.ico" />
+     
+<link rel="stylesheet" href="/css/style.css">
+
+
+    <!-- highlight -->
+    <link rel="stylesheet" href="https://cdn.bootcss.com/highlight.js/9.12.0/styles/github-gist.min.css" />
+    <script src="//cdn.bootcss.com/highlight.js/9.2.0/highlight.min.js"></script>
+    <script>
+        hljs.initHighlightingOnLoad()
+    </script>
+    <script src="https://cdn.jsdelivr.net/gh/frontendsophie/hexo-infinite-scroll@2.0.0/dist/main.js"></script>
+
+    <script>
+        infiniteScroll()
+
+        window.addEventListener('DOMContentLoaded', function () {
+            const [
+                mainTitle,
+                mobileMenu,
+                mobileMainTitle,
+                mobileMenuBtn,
+                ipadMenuBtn,
+                aside,
+                closeBtn,
+            ] = getEle(
+                '#main-title',
+                '.mobile-menu',
+                '.mobile-menu h3',
+                '.mobile-menu button',
+                '.ipad-menu',
+                'aside',
+                'aside .close',
+            )
+            const io = new IntersectionObserver(entries => {
+                if (entries[0].intersectionRatio <= 0) {
+                    mobileMainTitle.classList.remove('invisibile')
+                } else {
+                    mobileMainTitle.classList.add('invisibile')
+                }
+            })
+            io.observe(mainTitle)
+
+            clickToggleAside(mobileMenuBtn)
+            clickToggleAside(ipadMenuBtn)
+            clickToggleAside(closeBtn, false)
+
+            const isMenuVisible = window.getComputedStyle(mobileMenu).display !== 'none'
+            if (isMenuVisible) document.body.style.background = 'none'
+
+            function getEle(...args) {
+                return args.map(arg => document.querySelector(arg))
+            }
+
+            function clickToggleAside(btn, show = true) {
+                btn.addEventListener('click', function () {
+                    if (show) {
+                        aside.style.display = 'block'
+                    } else {
+                        aside.style.display = 'none'
+                    }
+                })
+            }
+        })
+    </script>
+<meta name="generator" content="Hexo 5.2.0"></head>
+
+<body style="background: url(https://cdn.jsdelivr.net/gh/frontendsophie/hexo-theme-autumn@1.0.0/source/img/button-bg.png) #f3f3f3">
+    <div class="container">
+        <header class="header">
+    <nav class="mobile-menu" style="background: url(https://cdn.jsdelivr.net/gh/frontendsophie/hexo-theme-autumn@1.0.0/source/img/button-bg.png) #f3f3f3">
+        <h3 class="invisibile">
+            <a href="/" class="logo">
+                jerryxie&#39;s blog
+            </a>
+        </h3>
+        <button class="menu">menu</button>
+    </nav>
+
+    <button class="ipad-menu menu">menu</button>
+
+    <h1 class="title" id="main-title">
+        <a href="/" class="logo">
+            jerryxie&#39;s blog
+        </a>
+    </h1>
+    <h2 class="desc">
+        启全的个人博客
+    </h2>
+
+    <div class="links">
+        <ul>
+            
+            <li>
+                <a target="_blank" rel="noopener" href="https://github.com/FrontendSophie">
+                    Github
+                </a>
+            </li>
+            
+            <li>
+                <a target="_blank" rel="noopener" href="https://www.linkedin.com/in/frontendsophie/">
+                    LinkedIn
+                </a>
+            </li>
+            
+        </ul>
+    </div>
+</header>
+        <main class="main">
+            <article class="post">
+    
+    
+    <h4 class="post-cat">
+        <a href="/categories/%E6%8A%80%E6%9C%AF%E8%B5%84%E6%96%99/">
+            技术资料
+        </a>
+    </h4>
+    
+    
+    <h2 class="post-title">
+        Safety简介-安规是什么
+    </h2>
+    <ul class="post-date">
+        <li>
+            2020-10-28
+        </li>
+        <li>
+            jerry xie
+        </li>
+    </ul>
+    <div class="post-content">
+        <h1 id="Safety简介"><a href="#Safety简介" class="headerlink" title="Safety简介"></a>Safety简介</h1><p><strong>安规是什么</strong></p>
+<p>安全检测认证是市场准入的通行证，电子产品安规的目的在于减小疼度、伤害以及着火等危险发生的可能性。安规标准对能量源进行了划分，并规定了针对那些能量源的安全防护，同时提供了电子产品的安全防护指导以及安全防护的要求。</p>
+<p>引起疼痛或伤害的能量源是对人体部位或由人体部位传递某种形式的能量，从而引起疼痛或伤害。</p>
+<p><img src="https://xie-jerry.github.io/picture/18.jpg" alt="S1.jpg"></p>
+<p><strong>能量的形式</strong></p>
+<p>电能</p>
+<p>热能</p>
+<p>化学反应</p>
+<p>动能</p>
+<p>热能</p>
+<p>辐射能</p>
+<p>能量源引起的人体反应的示例</p>
+<p><img src="https://xie-jerry.github.io/picture/18.jpg" alt="S2.jpg"></p>
+<p>许多产品需要使用能引起疼痛或伤害的能量。设备的设计又无法避免使用这种能量。因此，这些产品宜采用能减小这种能量传递到人体部位的可能性的方案。能减小这种能量传递到人体部位的可能性的方案就是安全防护。而安规则给设计者提供了这些安全防护的基本要求。</p>
+<p><img src="https://xie-jerry.github.io/picture/18.jpg" alt="S3.jpg"></p>
+<p><strong>安规常见测试项目</strong> </p>
+<p>\1. 输入测试 </p>
+<p>\2. 标签可靠性测试 </p>
+<p>\3. 电容放电测试 </p>
+<p>\4. SELV电路测试</p>
+<p>\5. 限功率源电路 </p>
+<p>\6. 限流源电路 </p>
+<p>\7. 接地连续性测试 </p>
+<p>\8. 潮态测试 </p>
+<p>\9. 扭力测试 </p>
+<p>\10. 稳定性测试 </p>
+<p>\11. 外壳受力测试 </p>
+<p>\12. 跌落测试 </p>
+<p>\13. 钢球冲击测试 </p>
+<p>\14. 振动测试 </p>
+<p>\15. 应力消除测试</p>
+<p>\16. 电池充放电测试 </p>
+<p>\17. 温升测试 </p>
+<p>\18. 球压测试 </p>
+<p>\19. 针焰测试</p>
+<p>\20. 灼热丝测试 </p>
+<p>\21. 维卡软化测试 </p>
+<p>\22. 接触电流测试 </p>
+<p>\23. 耐压测试</p>
+<p>\24. 绝缘电阻测试</p>
+<p>\25. 工作电压测试 </p>
+<p>\26. 异常工作/元件故障测试</p>
+<p>\27. 电源线拉力测试 </p>
+<p>\28. 安规结构设计 </p>
+<p><strong>常见产品的安规测试标准：</strong></p>
+<table>
+<thead>
+<tr>
+<th><strong>产品类别</strong></th>
+<th><strong>法规</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>影音类产品</strong></td>
+<td>EN 60065</td>
+</tr>
+<tr>
+<td>IEC 60065</td>
+<td></td>
+</tr>
+<tr>
+<td>GB 8898</td>
+<td></td>
+</tr>
+<tr>
+<td>CNS 14408</td>
+<td></td>
+</tr>
+<tr>
+<td>UL 60065/CSA.-C22.2 No. 60065</td>
+<td></td>
+</tr>
+<tr>
+<td>AS/NZS 60950.1</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>信息技术设备</strong></td>
+<td>EN 60950-1</td>
+</tr>
+<tr>
+<td>IEC 60950-1</td>
+<td></td>
+</tr>
+<tr>
+<td>GB 4943.1</td>
+<td></td>
+</tr>
+<tr>
+<td>CNS 14336-1</td>
+<td></td>
+</tr>
+<tr>
+<td>UL 60950-1/1/CSA-C22.2 No. 60950-1</td>
+<td></td>
+</tr>
+<tr>
+<td>AS/NZS 60065</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>音频、视频、信息和通信技术设备</strong></td>
+<td>IEC 62368-1</td>
+</tr>
+<tr>
+<td>EN 62368 -1</td>
+<td></td>
+</tr>
+<tr>
+<td>UL 62368 -1/CSA-C 22.2 No.62368-1</td>
+<td></td>
+</tr>
+<tr>
+<td>AS/NZS 62368.1</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>家用和类似用途电器</strong></td>
+<td>GB 4706.1 &amp; GB 4706.2 series</td>
+</tr>
+<tr>
+<td>IEC 60335-1 &amp; IEC 60335-2 series</td>
+<td></td>
+</tr>
+<tr>
+<td>EN 60335-1 &amp; EN 60335-2 series</td>
+<td></td>
+</tr>
+<tr>
+<td>AS/NZS 60335.1 &amp; AS/NZS 60335.2 series</td>
+<td></td>
+</tr>
+</tbody></table>
+
+    </div>
+</article>
+        </main>
+        <aside class="aside">
+            <div class="close"></div>
+            <section class="aside-section">
+                
+    <h1>Categories</h1>
+
+    <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%9B%BD%E9%99%85%E8%AE%A4%E8%AF%81%E8%B5%84%E8%AE%AF/">国际认证资讯</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%8A%80%E6%9C%AF%E8%B5%84%E6%96%99/">技术资料</a></li></ul>
+
+            </section>
+            <section class="aside-section">
+                
+    <h1>Archives</h1>
+
+    <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/">2020</a></li></ul>
+
+
+            </section>
+            <section class="aside-section tag">
+                
+    <h1>Tags</h1>
+
+    <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/5G-NR/" rel="tag">5G NR</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/EMC/" rel="tag">EMC</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/IoT/" rel="tag">IoT</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/KC/" rel="tag">KC</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/NCC/" rel="tag">NCC</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/OTA/" rel="tag">OTA</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/REACH%E9%AB%98%E5%BA%A6%E5%85%B3%E6%B3%A8%E7%89%A9%E8%B4%A8/" rel="tag">REACH高度关注物质</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/RF/" rel="tag">RF</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Rosh/" rel="tag">Rosh</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/SAR/" rel="tag">SAR</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Safety/" rel="tag">Safety</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/TELECOM/" rel="tag">TELECOM</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/UN38-3/" rel="tag">UN38.3</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%BC%BA%E5%88%B6%E8%AE%A4%E8%AF%81/" rel="tag">强制认证</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%94%B5%E6%B1%A0/" rel="tag">电池</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%A7%BB%E5%8A%A8%E9%80%9A%E8%AE%AF%E6%8A%80%E6%9C%AF/" rel="tag">移动通讯技术</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%8B%B1%E5%9B%BDUKCA/" rel="tag">英国UKCA</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%93%9D%E7%89%99/" rel="tag">蓝牙</a></li></ul>
+
+            </section>
+        </aside>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+    <meta name="keywords" content="hexo, autumn" />
+    <title>
+        jerryxie&#39;s blog
+    </title>
+    <!-- favicon -->
+    
+    <link rel="icon" href="https://cdn.jsdelivr.net/gh/frontendsophie/hexo-theme-autumn@1.0.0/source/img/favicon.ico" />
+     
+<link rel="stylesheet" href="/css/style.css">
+
+
+    <!-- highlight -->
+    <link rel="stylesheet" href="https://cdn.bootcss.com/highlight.js/9.12.0/styles/github-gist.min.css" />
+    <script src="//cdn.bootcss.com/highlight.js/9.2.0/highlight.min.js"></script>
+    <script>
+        hljs.initHighlightingOnLoad()
+    </script>
+    <script src="https://cdn.jsdelivr.net/gh/frontendsophie/hexo-infinite-scroll@2.0.0/dist/main.js"></script>
+
+    <script>
+        infiniteScroll()
+
+        window.addEventListener('DOMContentLoaded', function () {
+            const [
+                mainTitle,
+                mobileMenu,
+                mobileMainTitle,
+                mobileMenuBtn,
+                ipadMenuBtn,
+                aside,
+                closeBtn,
+            ] = getEle(
+                '#main-title',
+                '.mobile-menu',
+                '.mobile-menu h3',
+                '.mobile-menu button',
+                '.ipad-menu',
+                'aside',
+                'aside .close',
+            )
+            const io = new IntersectionObserver(entries => {
+                if (entries[0].intersectionRatio <= 0) {
+                    mobileMainTitle.classList.remove('invisibile')
+                } else {
+                    mobileMainTitle.classList.add('invisibile')
+                }
+            })
+            io.observe(mainTitle)
+
+            clickToggleAside(mobileMenuBtn)
+            clickToggleAside(ipadMenuBtn)
+            clickToggleAside(closeBtn, false)
+
+            const isMenuVisible = window.getComputedStyle(mobileMenu).display !== 'none'
+            if (isMenuVisible) document.body.style.background = 'none'
+
+            function getEle(...args) {
+                return args.map(arg => document.querySelector(arg))
+            }
+
+            function clickToggleAside(btn, show = true) {
+                btn.addEventListener('click', function () {
+                    if (show) {
+                        aside.style.display = 'block'
+                    } else {
+                        aside.style.display = 'none'
+                    }
+                })
+            }
+        })
+    </script>
+<meta name="generator" content="Hexo 5.2.0"></head>
+
+<body style="background: url(https://cdn.jsdelivr.net/gh/frontendsophie/hexo-theme-autumn@1.0.0/source/img/button-bg.png) #f3f3f3">
+    <div class="container">
+        <header class="header">
+    <nav class="mobile-menu" style="background: url(https://cdn.jsdelivr.net/gh/frontendsophie/hexo-theme-autumn@1.0.0/source/img/button-bg.png) #f3f3f3">
+        <h3 class="invisibile">
+            <a href="/" class="logo">
+                jerryxie&#39;s blog
+            </a>
+        </h3>
+        <button class="menu">menu</button>
+    </nav>
+
+    <button class="ipad-menu menu">menu</button>
+
+    <h1 class="title" id="main-title">
+        <a href="/" class="logo">
+            jerryxie&#39;s blog
+        </a>
+    </h1>
+    <h2 class="desc">
+        启全的个人博客
+    </h2>
+
+    <div class="links">
+        <ul>
+            
+            <li>
+                <a target="_blank" rel="noopener" href="https://github.com/FrontendSophie">
+                    Github
+                </a>
+            </li>
+            
+            <li>
+                <a target="_blank" rel="noopener" href="https://www.linkedin.com/in/frontendsophie/">
+                    LinkedIn
+                </a>
+            </li>
+            
+        </ul>
+    </div>
+</header>
+        <main class="main">
+            <article class="post">
+    
+    
+    <h4 class="post-cat">
+        <a href="/categories/%E6%8A%80%E6%9C%AF%E8%B5%84%E6%96%99/">
+            技术资料
+        </a>
+    </h4>
+    
+    
+    <h2 class="post-title">
+        EMC简介
+    </h2>
+    <ul class="post-date">
+        <li>
+            2020-10-28
+        </li>
+        <li>
+            jerry xie
+        </li>
+    </ul>
+    <div class="post-content">
+        <p><strong>EMC (Electro-Magnetic Compatibility)</strong> <strong>电磁兼容</strong></p>
+<p>指设备或系统在其电磁环境中符合要求运行并且不会对其环境中的任何设备产生无法忍受的电磁干扰的能力。</p>
+<p><strong>EMC**</strong>包括两个方面：**</p>
+<p>1.EMI (Electro-Magnetic Interference)</p>
+<p>  指设备在正常运行过程中对所在环境产生的电磁干扰不能超过一定的限值；</p>
+<p>\2. EMS (Electro-Magnetic Susceptibility)</p>
+<p>   指设备对所在环境中存在的电磁干扰具有一定程度的抗扰度。</p>
+<p><strong>即，EMC = EMI + EMS</strong></p>
+<p><strong>电磁兼容三要素</strong></p>
+<p><img src="https://xie-jerry.github.io/picture/5.jpg" alt="1558073489314863.png"></p>
+<p>由電磁干擾源發出的能量，通過某種耦合路徑傳輸到敏感設備，導致敏感設備出現某種形式的回應並產生效果。</p>
+<p>比如:</p>
+<p><img src="https://xie-jerry.github.io/picture/6.jpg" alt="1558073515729302.jpg"></p>
+<p>三要素中缺少任何一個都不構成EMC問題，因此當EMC問題發生時，可以通過對三要素排查與分析找出解決EMC問題的方案。</p>
+<p><strong>常見EMC測試專案</strong>
+<img src="https://xie-jerry.github.io/picture/5.jpg" alt="1558073489314863.png"></p>
+<p><strong>常見產品的EMC測試標準</strong></p>
+<p>歐盟地區</p>
+<table>
+<thead>
+<tr>
+<th>产品</th>
+<th>欧盟</th>
+<th></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>EMI 标准</td>
+<td>EMS 标准</td>
+<td></td>
+</tr>
+<tr>
+<td>多媒体产品</td>
+<td>EN 55032</td>
+<td>EN 55035</td>
+</tr>
+<tr>
+<td>工、科、医产品</td>
+<td>EN 55011</td>
+<td>-</td>
+</tr>
+<tr>
+<td>小家电、玩具产品</td>
+<td>EN 55014-1</td>
+<td>EN 55014-2</td>
+</tr>
+<tr>
+<td>照明产品</td>
+<td>EN 55015</td>
+<td>EN 61547</td>
+</tr>
+<tr>
+<td>PLC产品</td>
+<td>EN 50561-1,EN 50561-3</td>
+<td>EN 50412-2-1</td>
+</tr>
+<tr>
+<td>通讯产品</td>
+<td>EN 300 386</td>
+<td></td>
+</tr>
+<tr>
+<td>无线产品通则</td>
+<td>EN 301 489-1</td>
+<td></td>
+</tr>
+<tr>
+<td>SRD无线产品</td>
+<td>EN 301 489-3</td>
+<td></td>
+</tr>
+<tr>
+<td>BT / WIFI产品</td>
+<td>EN 301 489-17</td>
+<td></td>
+</tr>
+<tr>
+<td>卫星定位导航产品</td>
+<td>EN 301 489-19</td>
+<td></td>
+</tr>
+<tr>
+<td>2G/3G/4G手机</td>
+<td>EN 301 489-52</td>
+<td></td>
+</tr>
+</tbody></table>
+<p>北美地区</p>
+<table>
+<thead>
+<tr>
+<th>产品</th>
+<th>美国</th>
+<th>加拿大</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>EMI 标准</td>
+<td>EMI 标准</td>
+<td></td>
+</tr>
+<tr>
+<td>工、科、医产品</td>
+<td>FCC Part 18</td>
+<td>ICES-001</td>
+</tr>
+<tr>
+<td>ITE、各类数字产品</td>
+<td>FCC Part 15B</td>
+<td>ICES-003</td>
+</tr>
+<tr>
+<td>照明产品</td>
+<td>FCC Part 15B</td>
+<td>ICES-005</td>
+</tr>
+</tbody></table>
+
+    </div>
+</article>
+        </main>
+        <aside class="aside">
+            <div class="close"></div>
+            <section class="aside-section">
+                
+    <h1>Categories</h1>
+
+    <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%9B%BD%E9%99%85%E8%AE%A4%E8%AF%81%E8%B5%84%E8%AE%AF/">国际认证资讯</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%8A%80%E6%9C%AF%E8%B5%84%E6%96%99/">技术资料</a></li></ul>
+
+            </section>
+            <section class="aside-section">
+                
+    <h1>Archives</h1>
+
+    <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/">2020</a></li></ul>
+
+
+            </section>
+            <section class="aside-section tag">
+                
+    <h1>Tags</h1>
+
+    <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/5G-NR/" rel="tag">5G NR</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/EMC/" rel="tag">EMC</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/IoT/" rel="tag">IoT</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/KC/" rel="tag">KC</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/NCC/" rel="tag">NCC</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/OTA/" rel="tag">OTA</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/REACH%E9%AB%98%E5%BA%A6%E5%85%B3%E6%B3%A8%E7%89%A9%E8%B4%A8/" rel="tag">REACH高度关注物质</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/RF/" rel="tag">RF</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Rosh/" rel="tag">Rosh</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/SAR/" rel="tag">SAR</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Safety/" rel="tag">Safety</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/TELECOM/" rel="tag">TELECOM</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/UN38-3/" rel="tag">UN38.3</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%BC%BA%E5%88%B6%E8%AE%A4%E8%AF%81/" rel="tag">强制认证</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%94%B5%E6%B1%A0/" rel="tag">电池</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%A7%BB%E5%8A%A8%E9%80%9A%E8%AE%AF%E6%8A%80%E6%9C%AF/" rel="tag">移动通讯技术</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%8B%B1%E5%9B%BDUKCA/" rel="tag">英国UKCA</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%93%9D%E7%89%99/" rel="tag">蓝牙</a></li></ul>
+
+            </section>
+        </aside>
+    </div>
+</body>
+
+</html>

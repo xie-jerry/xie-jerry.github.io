@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+    <meta name="keywords" content="hexo, autumn" />
+    <title>
+        jerryxie&#39;s blog
+    </title>
+    <!-- favicon -->
+    
+    <link rel="icon" href="https://cdn.jsdelivr.net/gh/frontendsophie/hexo-theme-autumn@1.0.0/source/img/favicon.ico" />
+     
+<link rel="stylesheet" href="/css/style.css">
+
+
+    <!-- highlight -->
+    <link rel="stylesheet" href="https://cdn.bootcss.com/highlight.js/9.12.0/styles/github-gist.min.css" />
+    <script src="//cdn.bootcss.com/highlight.js/9.2.0/highlight.min.js"></script>
+    <script>
+        hljs.initHighlightingOnLoad()
+    </script>
+    <script src="https://cdn.jsdelivr.net/gh/frontendsophie/hexo-infinite-scroll@2.0.0/dist/main.js"></script>
+
+    <script>
+        infiniteScroll()
+
+        window.addEventListener('DOMContentLoaded', function () {
+            const [
+                mainTitle,
+                mobileMenu,
+                mobileMainTitle,
+                mobileMenuBtn,
+                ipadMenuBtn,
+                aside,
+                closeBtn,
+            ] = getEle(
+                '#main-title',
+                '.mobile-menu',
+                '.mobile-menu h3',
+                '.mobile-menu button',
+                '.ipad-menu',
+                'aside',
+                'aside .close',
+            )
+            const io = new IntersectionObserver(entries => {
+                if (entries[0].intersectionRatio <= 0) {
+                    mobileMainTitle.classList.remove('invisibile')
+                } else {
+                    mobileMainTitle.classList.add('invisibile')
+                }
+            })
+            io.observe(mainTitle)
+
+            clickToggleAside(mobileMenuBtn)
+            clickToggleAside(ipadMenuBtn)
+            clickToggleAside(closeBtn, false)
+
+            const isMenuVisible = window.getComputedStyle(mobileMenu).display !== 'none'
+            if (isMenuVisible) document.body.style.background = 'none'
+
+            function getEle(...args) {
+                return args.map(arg => document.querySelector(arg))
+            }
+
+            function clickToggleAside(btn, show = true) {
+                btn.addEventListener('click', function () {
+                    if (show) {
+                        aside.style.display = 'block'
+                    } else {
+                        aside.style.display = 'none'
+                    }
+                })
+            }
+        })
+    </script>
+<meta name="generator" content="Hexo 5.2.0"></head>
+
+<body style="background: url(https://cdn.jsdelivr.net/gh/frontendsophie/hexo-theme-autumn@1.0.0/source/img/button-bg.png) #f3f3f3">
+    <div class="container">
+        <header class="header">
+    <nav class="mobile-menu" style="background: url(https://cdn.jsdelivr.net/gh/frontendsophie/hexo-theme-autumn@1.0.0/source/img/button-bg.png) #f3f3f3">
+        <h3 class="invisibile">
+            <a href="/" class="logo">
+                jerryxie&#39;s blog
+            </a>
+        </h3>
+        <button class="menu">menu</button>
+    </nav>
+
+    <button class="ipad-menu menu">menu</button>
+
+    <h1 class="title" id="main-title">
+        <a href="/" class="logo">
+            jerryxie&#39;s blog
+        </a>
+    </h1>
+    <h2 class="desc">
+        启全的个人博客
+    </h2>
+
+    <div class="links">
+        <ul>
+            
+            <li>
+                <a target="_blank" rel="noopener" href="https://github.com/FrontendSophie">
+                    Github
+                </a>
+            </li>
+            
+            <li>
+                <a target="_blank" rel="noopener" href="https://www.linkedin.com/in/frontendsophie/">
+                    LinkedIn
+                </a>
+            </li>
+            
+        </ul>
+    </div>
+</header>
+        <main class="main">
+            <article class="post">
+    
+    
+    <h4 class="post-cat">
+        <a href="/categories/%E6%8A%80%E6%9C%AF%E8%B5%84%E6%96%99/">
+            技术资料
+        </a>
+    </h4>
+    
+    
+    <h2 class="post-title">
+        WIFI 6E 你掌握了多少?
+    </h2>
+    <ul class="post-date">
+        <li>
+            2020-10-28
+        </li>
+        <li>
+            jerry xie
+        </li>
+    </ul>
+    <div class="post-content">
+        <h1 id="WIFI-6E-你掌握了多少"><a href="#WIFI-6E-你掌握了多少" class="headerlink" title="WIFI 6E 你掌握了多少?"></a>WIFI 6E 你掌握了多少?</h1><p><strong>COVID-19**</strong>疫情期间,你是否发现无线网络在哪里都不够用不够快？原因在于连接设备太多！远距办公,远距学习,远距医疗等服务的兴起证明了无论是WIFI还是4G/5G NR都非常重要。**</p>
+<p><strong>◆ ◆ ◆ ◆ ◆</strong> <strong>WIFI 6E</strong> <strong>重点</strong> <strong>◆ ◆ ◆ ◆ ◆</strong></p>
+<p><strong>1**</strong>、频率范围**</p>
+<p>划分成4个不同子频段供免执照使用，</p>
+<p>包括：</p>
+<p>　5.925-6.425 GHz（U-NII-5频段）</p>
+<p>　6.425-6.525 GHz（U-NII-6频段）</p>
+<p>　6.525-6.825 GHz（U-NII-7频段）</p>
+<p>　6.875-7.125GHz（U-NII-8频段）。</p>
+<p><img src="https://xie-jerry.github.io/picture/20.jpg" alt="077ec16d-25aa-4586-a48d-4f2aa5298d26_.jpg"></p>
+<p><strong>2**</strong>、改变的是什么**</p>
+<p>Wi-Fi 6和Wi-Fi 6E（相对于2014 年实施的 Wi-Fi 5 或 802.11ac）最重要的增强功能是引入了正交频分多址接入(OFDMA)以及多用户、多输入多输出(MU-MIMO)的增强功能。 </p>
+<p>OFDMA 是一种调制方案，旨在通过允许多达 30 个用户同时共享一个信道来减少延迟、提高容 量并提高效率。 </p>
+<p>MU-MIMO 于 2015 年推出,仅适用于路由器(下 行链路)的输出信号,Wi-Fi 6 还将允许路由器 处理来自多个设备(上行链路)的输入信号。</p>
+<p><strong>3**</strong>、哪些国家使用**</p>
+<p>美国FCC于2020 年4月23 日宣布，开放 6GHz 频段（5.925GHz～7.125 GHz）1200MHz 频谱资源予非授权、免特许执照使用，但也会采取相关措施，保护已经在此频段运作的授权、特许执照使用者的权力、传输不受影响。</p>
+<p><strong>4**</strong>、美国对应法规改变了什么?**</p>
+<p>　4.1 第15.401条使用范围，新增5.925-6.425 GHz(U-NII-5), 6.425-6.525GHz(U-NII-6), 6.525-6.875 GHz(U-NII-7)及6.875-7.125 GHz(U-NII-8)频段。</p>
+<p>　4.2 第15.403条定义，新增自动频率控制（AFC）定义及其适用频段(5.925-6.425 GHz和6.525-6.875 GHz)，并定义用户设备(Client Device)。</p>
+<p>　4.3 第15.407条一般技术要求，制订U-NII-5、U-NII-6、U-NII-7及U-NII-8无线接取点（AP）及用户设备的最大输出功率、有效等向辐射功率(EIRP)、运作限制、自动频率控制(AFC)管理等技术要求。</p>
+<p><strong>5**</strong>、受影响的是什么产品**</p>
+<p>预计首先抢进这频段的规格将是 802.11ax/Wi-Fi 6E 以及 5G NR-U，前者可获得最高 7 个 160MHz 频道，后者则是透过非授权频段提升 5G 频宽容量。</p>
+<p><strong>6**</strong>、什么是AFC  与 WIFI6E 有何关联**</p>
+<p>FCC 监管机构必须解决几个尚待确定的考虑因素,它们可能会深刻影响 6 GHz 频段的部署方式。这些因素包括最大允许的发射功率和自动频率协调(AFC)。AFC 是一种数据库查找机制, 旨在保护 6 GHz 频谱内的现有用户。AFC 对用户的意义是FCC 正在试图在每个6 GHz 子频段上施加不同的规则集。</p>
+<p>尽管细节尚未完全确定，但目前，U-NII-6 和U-NII-8具有类似的规则集,使其仅可用于室内应用,输出功率限制为传导24 dBm(250mW)和辐射30 dBm (1W)。对于U-NII-5 和U-NII-7，无论是室内还是室外应用，都必须采用AFC。在这些频段中的输出功率被限制为传导30dBm 和辐射36dBm。</p>
+<p><strong>7**</strong>、LPI免 AFC 产品四大需求**</p>
+<p>　1. 必须使用集成天线这将禁止销售任何具备有外接天线装置设备；</p>
+<p>　2. 不得使用任何类型的防风雨外颏这将禁止使用电池供电的LPI 装置；</p>
+<p>　3. 设备未连接电源时必须停止运行；</p>
+<p>　4. 必须遵守明确标签要求。</p>
+
+    </div>
+</article>
+        </main>
+        <aside class="aside">
+            <div class="close"></div>
+            <section class="aside-section">
+                
+    <h1>Categories</h1>
+
+    <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%9B%BD%E9%99%85%E8%AE%A4%E8%AF%81%E8%B5%84%E8%AE%AF/">国际认证资讯</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%8A%80%E6%9C%AF%E8%B5%84%E6%96%99/">技术资料</a></li></ul>
+
+            </section>
+            <section class="aside-section">
+                
+    <h1>Archives</h1>
+
+    <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/">2020</a></li></ul>
+
+
+            </section>
+            <section class="aside-section tag">
+                
+    <h1>Tags</h1>
+
+    <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/5G-NR/" rel="tag">5G NR</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/EMC/" rel="tag">EMC</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/IoT/" rel="tag">IoT</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/KC/" rel="tag">KC</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/NCC/" rel="tag">NCC</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/OTA/" rel="tag">OTA</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/REACH%E9%AB%98%E5%BA%A6%E5%85%B3%E6%B3%A8%E7%89%A9%E8%B4%A8/" rel="tag">REACH高度关注物质</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/RF/" rel="tag">RF</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Rosh/" rel="tag">Rosh</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/SAR/" rel="tag">SAR</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Safety/" rel="tag">Safety</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/TELECOM/" rel="tag">TELECOM</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/UN38-3/" rel="tag">UN38.3</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%BC%BA%E5%88%B6%E8%AE%A4%E8%AF%81/" rel="tag">强制认证</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%94%B5%E6%B1%A0/" rel="tag">电池</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%A7%BB%E5%8A%A8%E9%80%9A%E8%AE%AF%E6%8A%80%E6%9C%AF/" rel="tag">移动通讯技术</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%8B%B1%E5%9B%BDUKCA/" rel="tag">英国UKCA</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%93%9D%E7%89%99/" rel="tag">蓝牙</a></li></ul>
+
+            </section>
+        </aside>
+    </div>
+</body>
+
+</html>

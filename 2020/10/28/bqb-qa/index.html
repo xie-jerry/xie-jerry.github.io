@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+    <meta name="keywords" content="hexo, autumn" />
+    <title>
+        jerryxie&#39;s blog
+    </title>
+    <!-- favicon -->
+    
+    <link rel="icon" href="https://cdn.jsdelivr.net/gh/frontendsophie/hexo-theme-autumn@1.0.0/source/img/favicon.ico" />
+     
+<link rel="stylesheet" href="/css/style.css">
+
+
+    <!-- highlight -->
+    <link rel="stylesheet" href="https://cdn.bootcss.com/highlight.js/9.12.0/styles/github-gist.min.css" />
+    <script src="//cdn.bootcss.com/highlight.js/9.2.0/highlight.min.js"></script>
+    <script>
+        hljs.initHighlightingOnLoad()
+    </script>
+    <script src="https://cdn.jsdelivr.net/gh/frontendsophie/hexo-infinite-scroll@2.0.0/dist/main.js"></script>
+
+    <script>
+        infiniteScroll()
+
+        window.addEventListener('DOMContentLoaded', function () {
+            const [
+                mainTitle,
+                mobileMenu,
+                mobileMainTitle,
+                mobileMenuBtn,
+                ipadMenuBtn,
+                aside,
+                closeBtn,
+            ] = getEle(
+                '#main-title',
+                '.mobile-menu',
+                '.mobile-menu h3',
+                '.mobile-menu button',
+                '.ipad-menu',
+                'aside',
+                'aside .close',
+            )
+            const io = new IntersectionObserver(entries => {
+                if (entries[0].intersectionRatio <= 0) {
+                    mobileMainTitle.classList.remove('invisibile')
+                } else {
+                    mobileMainTitle.classList.add('invisibile')
+                }
+            })
+            io.observe(mainTitle)
+
+            clickToggleAside(mobileMenuBtn)
+            clickToggleAside(ipadMenuBtn)
+            clickToggleAside(closeBtn, false)
+
+            const isMenuVisible = window.getComputedStyle(mobileMenu).display !== 'none'
+            if (isMenuVisible) document.body.style.background = 'none'
+
+            function getEle(...args) {
+                return args.map(arg => document.querySelector(arg))
+            }
+
+            function clickToggleAside(btn, show = true) {
+                btn.addEventListener('click', function () {
+                    if (show) {
+                        aside.style.display = 'block'
+                    } else {
+                        aside.style.display = 'none'
+                    }
+                })
+            }
+        })
+    </script>
+<meta name="generator" content="Hexo 5.2.0"></head>
+
+<body style="background: url(https://cdn.jsdelivr.net/gh/frontendsophie/hexo-theme-autumn@1.0.0/source/img/button-bg.png) #f3f3f3">
+    <div class="container">
+        <header class="header">
+    <nav class="mobile-menu" style="background: url(https://cdn.jsdelivr.net/gh/frontendsophie/hexo-theme-autumn@1.0.0/source/img/button-bg.png) #f3f3f3">
+        <h3 class="invisibile">
+            <a href="/" class="logo">
+                jerryxie&#39;s blog
+            </a>
+        </h3>
+        <button class="menu">menu</button>
+    </nav>
+
+    <button class="ipad-menu menu">menu</button>
+
+    <h1 class="title" id="main-title">
+        <a href="/" class="logo">
+            jerryxie&#39;s blog
+        </a>
+    </h1>
+    <h2 class="desc">
+        启全的个人博客
+    </h2>
+
+    <div class="links">
+        <ul>
+            
+            <li>
+                <a target="_blank" rel="noopener" href="https://github.com/FrontendSophie">
+                    Github
+                </a>
+            </li>
+            
+            <li>
+                <a target="_blank" rel="noopener" href="https://www.linkedin.com/in/frontendsophie/">
+                    LinkedIn
+                </a>
+            </li>
+            
+        </ul>
+    </div>
+</header>
+        <main class="main">
+            <article class="post">
+    
+    
+    <h4 class="post-cat">
+        <a href="/categories/%E6%8A%80%E6%9C%AF%E8%B5%84%E6%96%99/">
+            技术资料
+        </a>
+    </h4>
+    
+    
+    <h2 class="post-title">
+        BQB干货分享：常见问题与解答
+    </h2>
+    <ul class="post-date">
+        <li>
+            2020-10-28
+        </li>
+        <li>
+            jerry xie
+        </li>
+    </ul>
+    <div class="post-content">
+        <h1 id="BQB干货分享：常见问题与解答"><a href="#BQB干货分享：常见问题与解答" class="headerlink" title="BQB干货分享：常见问题与解答"></a>BQB干货分享：常见问题与解答</h1><p><img src="https://xie-jerry.github.io/picture/1603888348.jpg" alt="BQB LOGO.jpg"></p>
+<p><strong>为了方便大家翻阅，我们整理了一些常见问题如下，供各位参考：</strong></p>
+<p><strong>1.</strong> </p>
+<p><strong>Q**</strong>：何谓BQB？**</p>
+<p>A：BQB (Bluetooth Qualified Body)，我们一般统称为蓝牙认证，蓝牙BQB认证是属于行业认证的一种，也可以叫技术专利认证。</p>
+<p><strong>2.</strong></p>
+<p><strong>Q**</strong>：何谓BQTF?**</p>
+<p>A：BQTF英文全称为Bluetooth Qualification Testing Facility ,中文可理解为蓝牙认证测试设施，只有被蓝牙SIG官方认可的测试设施才可以为所有蓝牙成员提供蓝牙测试服务，并且被列在蓝牙SIG官网公开的测试设施目录中，BTL目前已取得BQTF资质，也就是可以为所有BQB需求的客户提供测试和认证服务！</p>
+<p><strong>3.</strong></p>
+<p><strong>Q**</strong>： BQB是强制性认证吗？**</p>
+<p>A：是的，BQB认证不区分产品类别，只要使用到蓝牙技术专利则需通过这项认证。</p>
+<p>完成蓝牙BQB认证的产品外观上才可以合法使用蓝牙标志。</p>
+<p><strong>4.</strong></p>
+<p><strong>Q**</strong>： 什么是蓝牙技术？**</p>
+<p>A：蓝牙是一种无线技术标准，可实现固定设备、移动设备和楼宇个人域网之间的短距离数据交换（使用2.4—2.485GHz的ISM波段的UHF无线电波）。</p>
+<p><strong>5.</strong></p>
+<p><strong>Q**</strong>： 做BQB认证能卖哪些国家或地区？**</p>
+<p>A：BQB不属于国家或地区的认证，是属于行业或技术专利认证的一种，所以只要取得这个认证就可以在世界范围内销售。</p>
+<p><strong>6.</strong> </p>
+<p><strong>Q**</strong>：BQB列名是否可接受系列型号申请？**</p>
+<p>A：接受（数量没有上限）</p>
+<p><strong>7.</strong> </p>
+<p><strong>Q**</strong>：列名完成后是否可加报其它型号？**</p>
+<p>A：可以，只要满足作为系列型号的要求（需提供型号差异声明确认），即可进行加报。</p>
+<p><strong>8.</strong> </p>
+<p><strong>Q**</strong>：BQB列名是否限制有效期？**</p>
+<p>A：只要认证产品不作变更则永久有效。</p>
+<p><strong>9.</strong> </p>
+<p><strong>Q**</strong>：SIG是什么？**</p>
+<p>A：SIG是Bluetooth Special Interest Group的缩写，是蓝牙组织特别兴趣小组的简称，也叫蓝牙技术联盟，也就是蓝牙BQB的管理单位，总部在美国。</p>
+<p><strong>10.</strong></p>
+<p><strong>Q**</strong>： SIG的Associate &amp; Adopter会员区别？**</p>
+<p>A：Associate指联盟会员，需缴纳年费（年费会员）</p>
+<p>   Adopter指应用会员，不需缴纳年费（免费会员）</p>
+<p><strong>11.</strong></p>
+<p><strong>Q**</strong>： Associate年费如何计算？**</p>
+<p>A： 以公司整体年营业额为据，超过一亿美金以上，年费为USD35000；未超过一亿美金，年费为USD7500。</p>
+<p><strong>12.</strong></p>
+<p><strong>Q**</strong>：BQB有哪些费用？**</p>
+<p>A：(1) 测试费（测试机构收取）</p>
+<p>   (2) 列名费（SIG官方收取的DID费用），分两种情况如下：</p>
+<p>​     ①Associate年费会员：4000 USD/DID</p>
+<p>​     ②Adopter免费会员：8000 USD/DID     </p>
+<p><strong>13.</strong></p>
+<p><strong>Q**</strong>：测试时间大约多久？**</p>
+<p>A：一般测试时间为两周左右，视样品测试情况而定。</p>
+<p><strong>14.</strong></p>
+<p><strong>Q**</strong>：BQB的测试项目大概包括哪些？**</p>
+<p>A： 大概分为RF, Profile, Protocol.</p>
+<p>   BQB的RF测试主要是对蓝牙的发射与接收性能做一个系统化的测试。这部分的测试也是根据蓝牙联盟发布的最新标准要求来进行的，测试的项目比起无线射频的RF测试会多很多测试项以及严格些。需要由蓝牙联盟指定的测试系统以及BQTF授权实验室进行测试。</p>
+<p>   Profile测产品的功能，通过官方指定的工具PTS进行测试。测试整机在消费者使用中的交互互操作性。</p>
+<p>   Protocol指的是协议测试，测试产品的蓝牙协议，包括了基带，链路管理等系列的底层支持，这部份消费者一般不会接触到，但是作为开发蓝牙产品必不可少的一部分，一般芯片厂商在设计芯片时已经完成了此部分的认证。</p>
+<p><strong>15.</strong></p>
+<p><strong>Q**</strong>：测试样品准备？**</p>
+<p>A：RF/RF-PHY:2个可以进入测试模式的直量样品并接上SMA连接头</p>
+<p>Profile：2个正常功能样品</p>
+<p><strong>16.</strong></p>
+<p><strong>Q**</strong>：什么情况可直接对产品进行listing？**</p>
+<p>A：整机引用了已listing认证过的蓝牙模组，且蓝牙模组产品类为end Product（SIG系统可查），整机并未改变蓝牙相关的RF（射频）、Profile（功能）等，符合以上全部条件可为整机直接listing</p>
+<p><strong>17.</strong></p>
+<p><strong>Q**</strong>：什么情况可使用同一个DID为整机listing？**
+ A： 之前有listing过系列型号（仅型号命名不同），在原来DID的基础上listing即可
+    相同产品类（如都是鼠标）、使用相同蓝牙芯片/模组，且蓝牙的RF、Profile参数部分不变，可使用同一个DID进行listing</p>
+<p><strong>18.</strong></p>
+<p><strong>Q**</strong>：认证前实验室对产品的评估？**</p>
+<p>A：对于产品中使用其他成员组织的合格蓝牙终端产品或子系统进行设计自己品牌的，而不更改或添加蓝牙功能，需提供产品规格书以及该蓝牙终端产品或子系统的QDID给实验室评估是否需要进行测试。</p>
+<p>   对于使用蓝牙芯片进行设计蓝牙电路，而不是使用合格的蓝牙子系统产品或合格蓝牙终端产品进行设计蓝牙电路，需提供产品的规格书以及芯片通过认证的Component组件QDID(s)给实验室评估初步测试内容。</p>
+<p><strong>19.</strong></p>
+<p><strong>Q**</strong>：最近BQB认证有什么新动态？**</p>
+<p>A：针对QDL全新认证（测试+列名），从2019年1月28号后，SIG已经不接收4.2版本以下的蓝牙认证，也就是说以后只能做4.2及以上版本的产品测试认证才可以被SIG接受。</p>
+<p>   针对EPL参考列名（不增加新测试，引用之前认证过的QDID），现阶段对于2.1-3.0版本是截止到2020年7月1号，4.0版本截止至2022年2月1号，4.1版本截止至2023年2月1号，在这些时间点前都可以直接listing。 </p>
+<p>   2020/02/10 SIG官方公告取消IIP小企业激励计划，详情参考<a target="_blank" rel="noopener" href="https://www.bluetooth.com/iip/">https://www.bluetooth.com/iip/</a></p>
+
+    </div>
+</article>
+        </main>
+        <aside class="aside">
+            <div class="close"></div>
+            <section class="aside-section">
+                
+    <h1>Categories</h1>
+
+    <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%9B%BD%E9%99%85%E8%AE%A4%E8%AF%81%E8%B5%84%E8%AE%AF/">国际认证资讯</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%8A%80%E6%9C%AF%E8%B5%84%E6%96%99/">技术资料</a></li></ul>
+
+            </section>
+            <section class="aside-section">
+                
+    <h1>Archives</h1>
+
+    <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/">2020</a></li></ul>
+
+
+            </section>
+            <section class="aside-section tag">
+                
+    <h1>Tags</h1>
+
+    <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/5G-NR/" rel="tag">5G NR</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/EMC/" rel="tag">EMC</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/IoT/" rel="tag">IoT</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/KC/" rel="tag">KC</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/NCC/" rel="tag">NCC</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/OTA/" rel="tag">OTA</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/REACH%E9%AB%98%E5%BA%A6%E5%85%B3%E6%B3%A8%E7%89%A9%E8%B4%A8/" rel="tag">REACH高度关注物质</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/RF/" rel="tag">RF</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Rosh/" rel="tag">Rosh</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/SAR/" rel="tag">SAR</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Safety/" rel="tag">Safety</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/TELECOM/" rel="tag">TELECOM</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/UN38-3/" rel="tag">UN38.3</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%BC%BA%E5%88%B6%E8%AE%A4%E8%AF%81/" rel="tag">强制认证</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%94%B5%E6%B1%A0/" rel="tag">电池</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%A7%BB%E5%8A%A8%E9%80%9A%E8%AE%AF%E6%8A%80%E6%9C%AF/" rel="tag">移动通讯技术</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%8B%B1%E5%9B%BDUKCA/" rel="tag">英国UKCA</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%93%9D%E7%89%99/" rel="tag">蓝牙</a></li></ul>
+
+            </section>
+        </aside>
+    </div>
+</body>
+
+</html>

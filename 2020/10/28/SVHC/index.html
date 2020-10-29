@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+    <meta name="keywords" content="hexo, autumn" />
+    <title>
+        jerryxie&#39;s blog
+    </title>
+    <!-- favicon -->
+    
+    <link rel="icon" href="https://cdn.jsdelivr.net/gh/frontendsophie/hexo-theme-autumn@1.0.0/source/img/favicon.ico" />
+     
+<link rel="stylesheet" href="/css/style.css">
+
+
+    <!-- highlight -->
+    <link rel="stylesheet" href="https://cdn.bootcss.com/highlight.js/9.12.0/styles/github-gist.min.css" />
+    <script src="//cdn.bootcss.com/highlight.js/9.2.0/highlight.min.js"></script>
+    <script>
+        hljs.initHighlightingOnLoad()
+    </script>
+    <script src="https://cdn.jsdelivr.net/gh/frontendsophie/hexo-infinite-scroll@2.0.0/dist/main.js"></script>
+
+    <script>
+        infiniteScroll()
+
+        window.addEventListener('DOMContentLoaded', function () {
+            const [
+                mainTitle,
+                mobileMenu,
+                mobileMainTitle,
+                mobileMenuBtn,
+                ipadMenuBtn,
+                aside,
+                closeBtn,
+            ] = getEle(
+                '#main-title',
+                '.mobile-menu',
+                '.mobile-menu h3',
+                '.mobile-menu button',
+                '.ipad-menu',
+                'aside',
+                'aside .close',
+            )
+            const io = new IntersectionObserver(entries => {
+                if (entries[0].intersectionRatio <= 0) {
+                    mobileMainTitle.classList.remove('invisibile')
+                } else {
+                    mobileMainTitle.classList.add('invisibile')
+                }
+            })
+            io.observe(mainTitle)
+
+            clickToggleAside(mobileMenuBtn)
+            clickToggleAside(ipadMenuBtn)
+            clickToggleAside(closeBtn, false)
+
+            const isMenuVisible = window.getComputedStyle(mobileMenu).display !== 'none'
+            if (isMenuVisible) document.body.style.background = 'none'
+
+            function getEle(...args) {
+                return args.map(arg => document.querySelector(arg))
+            }
+
+            function clickToggleAside(btn, show = true) {
+                btn.addEventListener('click', function () {
+                    if (show) {
+                        aside.style.display = 'block'
+                    } else {
+                        aside.style.display = 'none'
+                    }
+                })
+            }
+        })
+    </script>
+<meta name="generator" content="Hexo 5.2.0"></head>
+
+<body style="background: url(https://cdn.jsdelivr.net/gh/frontendsophie/hexo-theme-autumn@1.0.0/source/img/button-bg.png) #f3f3f3">
+    <div class="container">
+        <header class="header">
+    <nav class="mobile-menu" style="background: url(https://cdn.jsdelivr.net/gh/frontendsophie/hexo-theme-autumn@1.0.0/source/img/button-bg.png) #f3f3f3">
+        <h3 class="invisibile">
+            <a href="/" class="logo">
+                jerryxie&#39;s blog
+            </a>
+        </h3>
+        <button class="menu">menu</button>
+    </nav>
+
+    <button class="ipad-menu menu">menu</button>
+
+    <h1 class="title" id="main-title">
+        <a href="/" class="logo">
+            jerryxie&#39;s blog
+        </a>
+    </h1>
+    <h2 class="desc">
+        启全的个人博客
+    </h2>
+
+    <div class="links">
+        <ul>
+            
+            <li>
+                <a target="_blank" rel="noopener" href="https://github.com/FrontendSophie">
+                    Github
+                </a>
+            </li>
+            
+            <li>
+                <a target="_blank" rel="noopener" href="https://www.linkedin.com/in/frontendsophie/">
+                    LinkedIn
+                </a>
+            </li>
+            
+        </ul>
+    </div>
+</header>
+        <main class="main">
+            <article class="post">
+    
+    
+    <h4 class="post-cat">
+        <a href="/categories/%E6%8A%80%E6%9C%AF%E8%B5%84%E6%96%99/">
+            技术资料
+        </a>
+    </h4>
+    
+    
+    <h2 class="post-title">
+        SVHC(REACH高度关注物质)更新至209项
+    </h2>
+    <ul class="post-date">
+        <li>
+            2020-10-28
+        </li>
+        <li>
+            jerry xie
+        </li>
+    </ul>
+    <div class="post-content">
+        <h1 id="SVHC-REACH高度关注物质-更新至209项"><a href="#SVHC-REACH高度关注物质-更新至209项" class="headerlink" title="SVHC(REACH高度关注物质)更新至209项"></a>SVHC(REACH高度关注物质)更新至209项</h1><p>近期，欧洲化学品管理局ECHA发布了一项重要决议，新增4项物质到SVHC（REACH高度关注物质）列表中，现共有209项在管控范围内。</p>
+<p>2020年6月25日，欧洲化学品管理局ECHA发布决议，正式将4种物质加入高度关注物质清单（SVHC清单）。这4种新物质具有生殖毒性以及内分泌干扰特性，可能对人类健康造成严重危害的特性。截止目前，SVHC清单更新至209项。</p>
+<p><strong>REACH SVHC**</strong>新增4种物质如下：**</p>
+<table>
+<thead>
+<tr>
+<th><strong>序号</strong></th>
+<th><strong>物质名称</strong></th>
+<th><strong>英文名称</strong></th>
+<th><strong>EC号</strong></th>
+<th><strong>CAS号</strong></th>
+<th><strong>加入原因</strong></th>
+<th><strong>常见用途</strong></th>
+</tr>
+</thead>
+<tbody><tr>
+<td>206</td>
+<td>1-乙烯基咪唑</td>
+<td>1-vinylimidazole</td>
+<td>214-012-0</td>
+<td>1072-63-5</td>
+<td>生殖毒性（第57（c）条）</td>
+<td>在配方中和在聚合物生产中作为单体</td>
+</tr>
+<tr>
+<td>207</td>
+<td>2-甲基咪唑</td>
+<td>2-methylimidazole</td>
+<td>211-765-7</td>
+<td>693-98-1</td>
+<td>生殖毒性（第57（c）条）</td>
+<td>作为涂料产品生产中的催化剂</td>
+</tr>
+<tr>
+<td>208</td>
+<td>二丁基二（戊烷2,4-二酸酯-O，O’）</td>
+<td>Dibutylbis(pentane-2,4-dionato-O,O’)tin</td>
+<td>245-152-0</td>
+<td>22673-19-4</td>
+<td>生殖毒性（第57（c）条）</td>
+<td>在塑料生产中作为催化剂和添加剂</td>
+</tr>
+<tr>
+<td>209</td>
+<td>4-羟基苯甲酸丁酯（对羟基苯甲酸丁酯）</td>
+<td>Butyl    4-hydroxybenzoate(Butylparaben)</td>
+<td>202-318-7</td>
+<td>94-26-8</td>
+<td>内分泌干扰特性-人类健康（第57（f）条-人类健康）</td>
+<td>化妆品，个人护理产品和药品</td>
+</tr>
+</tbody></table>
+<p><strong>温馨提醒：任何含有浓度超过**</strong>0.1**<strong>％（重量）的候选清单物质的物品供应商，都必须向其顾客和消费者提供足够的信息，以便安全使用。</strong> </p>
+<p>从2021年1月起，如果公司的商品中包含候选清单中的物质，则还需要通知ECHA的SCIP数据库。包含候选清单物质的物品的进口商和生产商也将自将其列入清单之日（2020年6月25日）起六个月内通知ECHA。  </p>
+<p> 有需求做Rearch209 项更新的，请联系我，谢谢！</p>
+
+    </div>
+</article>
+        </main>
+        <aside class="aside">
+            <div class="close"></div>
+            <section class="aside-section">
+                
+    <h1>Categories</h1>
+
+    <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/%E5%9B%BD%E9%99%85%E8%AE%A4%E8%AF%81%E8%B5%84%E8%AE%AF/">国际认证资讯</a></li><li class="category-list-item"><a class="category-list-link" href="/categories/%E6%8A%80%E6%9C%AF%E8%B5%84%E6%96%99/">技术资料</a></li></ul>
+
+            </section>
+            <section class="aside-section">
+                
+    <h1>Archives</h1>
+
+    <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/">2020</a></li></ul>
+
+
+            </section>
+            <section class="aside-section tag">
+                
+    <h1>Tags</h1>
+
+    <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/5G-NR/" rel="tag">5G NR</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/EMC/" rel="tag">EMC</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/IoT/" rel="tag">IoT</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/KC/" rel="tag">KC</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/NCC/" rel="tag">NCC</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/OTA/" rel="tag">OTA</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/REACH%E9%AB%98%E5%BA%A6%E5%85%B3%E6%B3%A8%E7%89%A9%E8%B4%A8/" rel="tag">REACH高度关注物质</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/RF/" rel="tag">RF</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Rosh/" rel="tag">Rosh</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/SAR/" rel="tag">SAR</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Safety/" rel="tag">Safety</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/TELECOM/" rel="tag">TELECOM</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/UN38-3/" rel="tag">UN38.3</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E5%BC%BA%E5%88%B6%E8%AE%A4%E8%AF%81/" rel="tag">强制认证</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%94%B5%E6%B1%A0/" rel="tag">电池</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E7%A7%BB%E5%8A%A8%E9%80%9A%E8%AE%AF%E6%8A%80%E6%9C%AF/" rel="tag">移动通讯技术</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%8B%B1%E5%9B%BDUKCA/" rel="tag">英国UKCA</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/%E8%93%9D%E7%89%99/" rel="tag">蓝牙</a></li></ul>
+
+            </section>
+        </aside>
+    </div>
+</body>
+
+</html>
