@@ -3,7 +3,7 @@ title: 移动通讯技术简介
 categories:
   - 技术资料
 tags:
-  - 2/3/4/5G
+  - 移动通讯技术
 date: 2020-10-28 20:37:00
 keyworks: 
 ---
