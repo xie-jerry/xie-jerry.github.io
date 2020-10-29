@@ -3,7 +3,7 @@ title: 国推ROHS开始强制执行
 categories:
   - 国际认证资讯
 tags:
-  - 中国Rosh
+  - Rosh
 date: 2020-10-28 20:37:00
 keyworks:
 ---
