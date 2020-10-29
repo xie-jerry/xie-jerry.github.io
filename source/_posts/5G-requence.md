@@ -3,7 +3,7 @@ title: 深度解读：5G先进国家频谱与法规要求
 categories:
   - 技术资料
 tags:
-  - 5G
+  - 5G NR
 date: 2020-10-28 20:37:00
 keyworks: 
 ---
