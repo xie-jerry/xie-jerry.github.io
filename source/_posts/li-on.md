@@ -3,7 +3,7 @@ title: 电池简介
 categories:
   - 技术资料
 tags:
-  - li-on
+  - 电池
 date: 2020-10-28 20:37:00
 keyworks: 
 ---
